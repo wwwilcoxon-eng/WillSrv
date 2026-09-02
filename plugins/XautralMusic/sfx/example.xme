@@ -1,0 +1,10 @@
+# XME - Xautral Music Event - ejemplo
+# Sintaxis: execute when [action:<evento>] run playsound <sonido> <volumen> [players:<selector>] [pos:<coords>]
+# Sonido = namespace:key  Ej: xautral:sfx.grunt_kill  o  minecraft:sfx.grunt_kill si namespace=minecraft
+# Volumen = 0.1 - 2.0  (1 = normal)
+# Players: all/@a (todos), @p (cercano), @s/self (solo ejecutor)
+# Pos: -1,-1,-1 = en cada jugador objetivo | 0,64,0 = coords fijas | @s = en ejecutor
+
+execute when [action:die] run playsound xautral:sfx.grunt_kill 1 [players:all] [pos:-1,-1,-1]
+execute when [action:kill] run playsound xautral:sfx.kill_confirm 0.9 [players:@s] [pos:@s]
+execute when [action:join] run playsound xautral:music.welcome 0.7 [players:@s] [pos:@s]

@@ -1,0 +1,54 @@
+# XautralMusic - config.yml
+# Estructura final: plugins/XautralMusic/music y plugins/XautralMusic/sfx
+# Solo hay dos categorías: music y sfx. Los .xme van en sfx/ y se ejecutan como datapack.
+# Puedes importar .wav/.mp3/.flac/.aiff/.m4a/.opus y se convierten auto a .ogg vorbis.
+
+# Carpeta base (contiene music/ y sfx/)
+baseFolder: "plugins/XautralMusic"
+musicFolder: "plugins/XautralMusic/music"
+sfxFolder: "plugins/XautralMusic/sfx"
+
+httpPort: 8008
+httpHost: "0.0.0.0"
+# URL publica que verán los clientes. Si está vacía se intenta autodetectar.
+# Ejemplos:
+# publicUrl: "http://TU_IP_PUBLICA:8008/pack.zip"
+# publicUrl: "https://pack.drake-sizable.tun.ply.gg/pack.zip"
+publicUrl: ""
+
+prompt: "§5§lXautralMusic §7¿Descargar la música del servidor? §aSí §7/ §cNo"
+required: false
+
+packFormat: 88
+packDescription: "XautralMusic - Musica del servidor"
+
+autoApplyOnJoin: true
+applyDelayTicks: 40
+
+# ── Namespace / prefijo configurable ──
+namespace: "xautral"
+soundPrefix: ""
+useSubfoldersAsCategories: true
+categories:
+  - music
+  - sfx
+autoCreateCategoryFolders: true
+indexFile: "index.yml"
+
+# ── Conversión automática audio → OGG Vorbis ──
+autoConvertAudio: true
+ffmpegPath: "ffmpeg"
+vorbisQuality: 5
+sampleRate: 48000
+
+# ── XME Datapack ──
+generateDatapack: true
+
+# ── GitHub Releases (CDN global, siempre accesible) ──
+githubRelease:
+  enabled: true
+  repo: "wwwilcoxon-eng/WillSrv"
+  token: "GITHUB_TOKEN"
+
+reEncodeOgg: true
+verbose: false

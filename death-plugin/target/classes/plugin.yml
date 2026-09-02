@@ -1,0 +1,16 @@
+name: Death
+version: 1.0.0
+main: dev.xautral.death.DeathPlugin
+api-version: '26.2'
+author: Xautral
+commands:
+  diffmode:
+    permission: death.diffmode
+    aliases:
+      - dm
+  deathsummon:
+    description: Invoca jefes y mobs del modo Hellish
+    usage: /deathsummon <skeletonboss|huskboss|daemon|phantom|endphantom|creeper|blaze> [jugador]
+    permission: death.diffmode
+  deathitems:
+    permission: death.items

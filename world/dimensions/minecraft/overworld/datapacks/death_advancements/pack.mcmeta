@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "pack_format": 90,
+    "supported_formats": {"min_inclusive": 45, "max_inclusive": 9999},
+    "description": "Death plugin - Hellish advancements"
+  }
+}
