@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "9c5026b5-1602-34df-9cd4-1dd4d84122b4",
+    "name": "OPlechStyles",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "648f36b5-8baf-3ed8-ba0e-7c4c836e402a",
+    "name": "OPlechyStyles",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f20b02b1-57da-34a4-912f-c54f973b3c4f",
+    "name": "OmniXautral",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "eccfda82-36bb-34f6-990b-f38cbf3c2466",
+    "name": "Slimegolembross",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

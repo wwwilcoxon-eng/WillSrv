@@ -1,0 +1,14 @@
+dev/willsrv/xlogin/ChatModerator$MsgPart.class
+dev/willsrv/xlogin/PlayerStore$StoredPlayer.class
+dev/willsrv/xlogin/XLoginPlugin.class
+dev/willsrv/xlogin/ChatModerator.class
+dev/willsrv/xlogin/Dialogs.class
+dev/willsrv/xlogin/PlayerStore.class
+dev/willsrv/xlogin/CryptoUtil$HashedSecret.class
+dev/willsrv/xlogin/AuthListener.class
+dev/willsrv/xlogin/Msg.class
+dev/willsrv/xlogin/PlayerStore$1.class
+dev/willsrv/xlogin/AuthCommands.class
+dev/willsrv/xlogin/AuthManager.class
+dev/willsrv/xlogin/AuthManager$Session.class
+dev/willsrv/xlogin/CryptoUtil.class
