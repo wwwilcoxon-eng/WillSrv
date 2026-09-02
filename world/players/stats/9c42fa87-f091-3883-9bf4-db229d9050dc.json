@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:short_grass": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 16
+    },
+    "minecraft:used": {
+      "minecraft:dirt": 16
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 20,
+      "minecraft:walk_one_cm": 9905,
+      "minecraft:leave_game": 3,
+      "minecraft:walk_under_water_one_cm": 458,
+      "minecraft:damage_taken": 570,
+      "minecraft:play_time": 10980,
+      "minecraft:damage_dealt": 9,
+      "minecraft:jump": 170,
+      "minecraft:time_since_death": 0,
+      "minecraft:sprint_one_cm": 13288,
+      "minecraft:fall_one_cm": 8717,
+      "minecraft:swim_one_cm": 3507,
+      "minecraft:total_world_time": 10980,
+      "minecraft:fly_one_cm": 21331,
+      "minecraft:walk_on_water_one_cm": 782,
+      "minecraft:crouch_one_cm": 2321,
+      "minecraft:sneak_time": 889,
+      "minecraft:climb_one_cm": 8726,
+      "minecraft:deaths": 2
+    }
+  },
+  "DataVersion": 4903
+}

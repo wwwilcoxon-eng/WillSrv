@@ -1,0 +1,13 @@
+name: Weapons
+version: 2.0.0
+main: dev.willsrv.weapons.WeaponsPlugin
+api-version: '26.2'
+author: Xautral
+commands:
+  ie:
+    description: Abre el editor del item en tu mano
+    aliases: [itemedit]
+    permission: weapons.itemedit
+permissions:
+  weapons.itemedit:
+    default: op

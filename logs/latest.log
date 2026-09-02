@@ -1,0 +1,24 @@
+[20:07:02] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[20:07:02] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-112-main@c9e894d (2026-08-11T05:18:39Z) for Minecraft 26.2
+[20:07:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:07:02] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[20:07:02] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - Death (1.0.0), INventory (1.0.0), Phaxi (1.0.0), Physics (1.0.0), Restore (1.0.0), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), Weapons (2.0.0), XautralMusic (1.0.0), xLogin (1.0.0)
+[20:07:06] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:07:07] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[20:07:07] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[20:07:07] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[20:07:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:07:07] [ServerMain/ERROR]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /workspaces/WillSrv/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:94) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:29) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.createLock(LevelStorageSource.java:472) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:468) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:401) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.Main.main(Main.java:198) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:25) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[20:07:07] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 912.8ms
