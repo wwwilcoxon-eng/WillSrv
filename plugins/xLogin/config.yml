@@ -1,0 +1,10 @@
+# XLogin - configuracion
+
+# Intentos permitidos antes de ser expulsado
+max-attempts: 3
+
+# Longitud minima de la contrasena
+min-password-length: 4
+
+# Longitud maxima de la contrasena
+max-password-length: 64
