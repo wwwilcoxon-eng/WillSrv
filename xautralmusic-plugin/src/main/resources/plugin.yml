@@ -1,0 +1,19 @@
+name: XautralMusic
+version: 1.0.0
+main: dev.willsrv.xautralmusic.XautralMusicPlugin
+api-version: '26.2'
+author: Xautral
+prefix: XautralMusic
+commands:
+  xautralmusic:
+    description: Gestiona el resource pack de música
+    usage: /xautralmusic <reload|apply|status>
+    aliases: [xm, xmusic]
+    permission: xautralmusic.admin
+  xm:
+    description: Alias de xautralmusic
+    usage: /xm <reload|apply|status>
+permissions:
+  xautralmusic.admin:
+    default: op
+    description: Permite recargar y aplicar el pack

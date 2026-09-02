@@ -1,0 +1,49 @@
+# XautralMusic - config.yml
+# Estructura final: plugins/XautralMusic/music y plugins/XautralMusic/sfx
+# Solo hay dos categorías: music y sfx. Los .xme van en sfx/ y se ejecutan como datapack.
+# Puedes importar .wav/.mp3/.flac/.aiff/.m4a/.opus y se convierten auto a .ogg vorbis.
+
+# Carpeta base (contiene music/ y sfx/)
+baseFolder: "plugins/XautralMusic"
+musicFolder: "plugins/XautralMusic/music"
+sfxFolder: "plugins/XautralMusic/sfx"
+
+httpPort: 8008
+httpHost: "0.0.0.0"
+publicUrl: ""
+
+prompt: "§5§lXautralMusic §7¿Descargar la música del servidor? §aSí §7/ §cNo"
+required: false
+# Si true, escribe automáticamente server.properties (resource-pack, sha1, prompt) — solo consola, nunca chat
+updateServerProperties: true
+
+packFormat: 34
+packDescription: "§5XautralMusic §7- Música del servidor"
+
+autoApplyOnJoin: true
+applyDelayTicks: 40
+
+# ── Namespace / prefijo configurable ──
+# namespace = carpeta assets/<namespace> y prefijo del evento
+# Ej: namespace: "xautral" => evento "xautral:music.song" , archivo assets/xautral/sounds/music/song.ogg
+#     namespace: "minecraft" + soundPrefix "xautral" => evento "minecraft:xautral.music.song" , assets/minecraft/sounds/xautral/music/song.ogg
+namespace: "xautral"
+soundPrefix: ""
+useSubfoldersAsCategories: true
+# Solo music y sfx (se crean auto si no existen)
+categories:
+  - music
+  - sfx
+autoCreateCategoryFolders: true
+indexFile: "index.yml"
+
+# ── Conversión automática audio → OGG Vorbis ──
+autoConvertAudio: true
+ffmpegPath: "ffmpeg"
+# calidad vorbis 1-10 (4 ~128k, 6 ~192k)
+vorbisQuality: 5
+sampleRate: 48000
+
+# ── XME Datapack ──
+# genera datapack en world/datapacks/xautral_music si hay .xme
+generateDatapack: true

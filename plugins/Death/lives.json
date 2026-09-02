@@ -1,0 +1,17 @@
+{
+  "players": {
+    "eccfda82-36bb-34f6-990b-f38cbf3c2466": {
+      "lives": 9,
+      "totalDeaths": 1
+    },
+    "f20b02b1-57da-34a4-912f-c54f973b3c4f": {
+      "lives": 6,
+      "totalDeaths": 4
+    },
+    "5ef1a4fb-3293-3667-bcc1-e4e8335b9a9e": {
+      "lives": 9,
+      "totalDeaths": 1
+    }
+  },
+  "pendingRevive": {}
+}

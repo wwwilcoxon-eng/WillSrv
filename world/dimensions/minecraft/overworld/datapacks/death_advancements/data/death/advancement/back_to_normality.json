@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:diamond"},
+    "title": {"translate": "", "fallback": "De vuelta a la normalidad"},
+    "description": {"text": "Usaste un Dodecaedro Angelical"},
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "criteria": {
+    "granted": {"trigger": "minecraft:impossible"}
+  },
+  "requirements": [["granted"]]
+}
