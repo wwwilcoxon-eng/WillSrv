@@ -1,0 +1,101 @@
+[21:31:01] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[21:31:01] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-112-main@c9e894d (2026-08-11T05:18:39Z) for Minecraft 26.2
+[21:31:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:31:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[21:31:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - INventory (1.0.0), Phaxi (1.0.0), Physics (1.0.0), Restore (1.0.0), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), Weapons (2.0.0), XautralMusic (1.0.0), xLogin (1.0.0)
+[21:31:06] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:31:07] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[21:31:07] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[21:31:07] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[21:31:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:31:07] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 763.2ms
+[21:31:10] [ServerMain/INFO]: Loaded 1585 recipes
+[21:31:10] [ServerMain/INFO]: Loaded 1688 advancements
+[21:31:10] [Server thread/INFO]: Starting minecraft server version 26.2
+[21:31:10] [Server thread/INFO]: Loading properties
+[21:31:10] [Server thread/INFO]: This server is running Paper version 26.2-112-main@c9e894d (2026-08-11T05:18:39Z) (Implementing API version 26.2.build.112-stable)
+[21:31:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:31:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:31:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:31:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:31:11] [Server thread/INFO]: Default game type: SURVIVAL
+[21:31:11] [Server thread/INFO]: Generating keypair
+[21:31:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:31:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:31:11] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:31:12] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[21:31:12] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[21:31:13] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:31:13] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:31:13] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[21:31:13] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[21:31:13] [Server thread/INFO]: [INventory] Loading server plugin INventory v1.0.0
+[21:31:13] [Server thread/INFO]: [Restore] Loading server plugin Restore v1.0.0
+[21:31:13] [Server thread/INFO]: [Weapons] Loading server plugin Weapons v2.0.0
+[21:31:13] [Server thread/INFO]: [xLogin] Loading server plugin xLogin v1.0.0
+[21:31:13] [Server thread/INFO]: [Physics] Loading server plugin Physics v1.0.0
+[21:31:13] [Server thread/INFO]: [Phaxi] Loading server plugin Phaxi v1.0.0
+[21:31:13] [Server thread/INFO]: [XautralMusic] Loading server plugin XautralMusic v1.0.0
+[21:31:13] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[21:31:14] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.2.0.
+[21:31:15] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[21:31:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:31:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:31:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:31:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:31:15] [Server thread/INFO]: Preparing level "world"
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[21:31:15] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[21:31:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[21:31:15] [Server thread/INFO]: Preparing spawn area: 100%
+[21:31:15] [Server thread/INFO]: Prepared spawn area in 2 ms
+[21:31:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[21:31:15] [Server thread/INFO]: Prepared spawn area in 1 ms
+[21:31:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[21:31:15] [Server thread/INFO]: Prepared spawn area in 1 ms
+[21:31:15] [Server thread/INFO]: Done preparing level "world" (0.663s)
+[21:31:15] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[21:31:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[21:31:15] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[21:31:15] [Server thread/INFO]: [INventory] Enabling INventory v1.0.0
+[21:31:15] [Server thread/INFO]: [INventory] INventory habilitado.
+[21:31:15] [Server thread/INFO]: [Restore] Enabling Restore v1.0.0
+[21:31:15] [Server thread/INFO]: [Restore] Restore habilitado - sin tracking de chunks (solo /restore chunk).
+[21:31:15] [Server thread/INFO]: [Weapons] Enabling Weapons v2.0.0
+[21:31:15] [Server thread/INFO]: [Weapons] ItemEdit listo: /ie o /itemedit
+[21:31:15] [Server thread/INFO]: [xLogin] Enabling xLogin v1.0.0
+[21:31:15] [Server thread/INFO]: [xLogin] xLogin habilitado: dialogos para 1.21.6+, chat para versiones anteriores.
+[21:31:15] [Server thread/INFO]: [Physics] Enabling Physics v1.0.0
+[21:31:15] [Server thread/INFO]: [Physics] Physics habilitado.
+[21:31:15] [Server thread/INFO]: [Phaxi] Enabling Phaxi v1.0.0
+[21:31:15] [Server thread/INFO]: [Phaxi] Phaxi habilitado.
+[21:31:15] [Server thread/INFO]: [XautralMusic] Enabling XautralMusic v1.0.0
+[21:31:16] [Server thread/INFO]: [XautralMusic] XautralMusic habilitado. Carpeta: plugins/XautralMusic/music | HTTP: 0.0.0.0:8008
+[21:31:16] [Server thread/INFO]: [spark] Starting background profiler...
+[21:31:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:31:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:31:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:31:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:31:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:31:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:31:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:31:16] [Server thread/INFO]: Running delayed init tasks
+[21:31:16] [Server thread/INFO]: Done (16.213s)! For help, type "help"
+[21:31:16] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:31:16] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 9 builds behind ***
+[21:31:16] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[21:31:25] [Craft Scheduler Thread - 1 - XautralMusic/INFO]: [XautralMusic] [XautralMusic] Pack: 3 tracks -> 3157741 bytes SHA1=82c43860
+[21:31:25] [Craft Scheduler Thread - 1 - XautralMusic/INFO]: [XautralMusic] [XautralMusic] HTTP :8008/pack.zip -> https://github.com/wwwilcoxon-eng/WillSrv/releases/download/xautralmusic-pack-1788384683706/pack.zip
+[21:31:25] [Craft Scheduler Thread - 1 - XautralMusic/INFO]: [XautralMusic] XautralMusic pack: 3 tracks SHA1=82c43860

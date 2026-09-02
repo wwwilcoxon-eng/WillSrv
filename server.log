@@ -1,0 +1,174 @@
+Starting org.bukkit.craftbukkit.Main
+2026-09-02T21:07:19.973067216Z ServerMain WARN Advanced terminal features are not available in this environment
+[21:07:20 INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[21:07:20 INFO]: [bootstrap] Loading Paper 26.2-112-main@c9e894d (2026-08-11T05:18:39Z) for Minecraft 26.2
+[21:07:20 INFO]: [PluginInitializerManager] Initializing plugins...
+[21:07:21 INFO]: [PluginInitializerManager] Initialized 10 plugins
+[21:07:21 INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - INventory (1.0.0), Phaxi (1.0.0), Physics (1.0.0), Restore (1.0.0), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), Weapons (2.0.0), XautralMusic (1.0.0), xLogin (1.0.0)
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by org.joml.MemUtil$MemUtilUnsafe (file:/workspaces/WillSrv/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar)
+WARNING: Please consider reporting this to the maintainers of class org.joml.MemUtil$MemUtilUnsafe
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[21:07:26 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:07:26 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:07:27 INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,127.8ms
+[21:07:30 INFO]: Loaded 1585 recipes
+[21:07:30 INFO]: Loaded 1688 advancements
+[21:07:30 INFO]: Starting minecraft server version 26.2
+[21:07:30 INFO]: Loading properties
+[21:07:30 INFO]: This server is running Paper version 26.2-112-main@c9e894d (2026-08-11T05:18:39Z) (Implementing API version 26.2.build.112-stable)
+[21:07:30 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:07:30 INFO]: Server Ping Player Sample Count: 12
+[21:07:30 INFO]: Using 4 threads for Netty based IO
+[21:07:31 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[21:07:31 INFO]: Default game type: SURVIVAL
+[21:07:31 INFO]: Generating keypair
+[21:07:31 INFO]: Starting Minecraft server on *:25565
+[21:07:31 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:07:31 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:07:32 INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[21:07:32 INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[21:07:33 INFO]: [ViaBackwards] Loading translations...
+[21:07:33 INFO]: [ViaBackwards] Registering protocols...
+[21:07:34 INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[21:07:34 INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[21:07:34 INFO]: [INventory] Loading server plugin INventory v1.0.0
+[21:07:34 INFO]: [Restore] Loading server plugin Restore v1.0.0
+[21:07:34 INFO]: [Weapons] Loading server plugin Weapons v2.0.0
+[21:07:34 INFO]: [xLogin] Loading server plugin xLogin v1.0.0
+[21:07:34 INFO]: [Physics] Loading server plugin Physics v1.0.0
+[21:07:34 INFO]: [Phaxi] Loading server plugin Phaxi v1.0.0
+[21:07:34 INFO]: [XautralMusic] Loading server plugin XautralMusic v1.0.0
+[21:07:34 INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[21:07:35 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m26.2.0[32;1m.[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[21:07:36 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:07:36 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:07:36 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:07:36 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:07:36 INFO]: Preparing level "world"
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer   |[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |-------------------|[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m  |[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +===================+[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.12.5[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1m98b9488[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[21:07:36 INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer or receive priority support? Become a supporter: [33;1mhttps://skinsrestorer.net/pricing[0;39m
+[21:07:37 INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[21:07:37 INFO]: Preparing spawn area: 100%
+[21:07:37 INFO]: Prepared spawn area in 2 ms
+[21:07:37 INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[21:07:37 INFO]: Prepared spawn area in 0 ms
+[21:07:37 INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[21:07:37 INFO]: Prepared spawn area in 0 ms
+[21:07:37 INFO]: Done preparing level "world" (0.848s)
+[21:07:37 INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[21:07:37 INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[21:07:37 INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[21:07:37 INFO]: [INventory] Enabling INventory v1.0.0
+[21:07:37 INFO]: [INventory] INventory habilitado.
+[21:07:37 INFO]: [Restore] Enabling Restore v1.0.0
+[21:07:37 INFO]: [Restore] Restore habilitado - sin tracking de chunks (solo /restore chunk).
+[21:07:37 INFO]: [Weapons] Enabling Weapons v2.0.0
+[21:07:37 INFO]: [Weapons] ItemEdit listo: /ie o /itemedit
+[21:07:37 INFO]: [xLogin] Enabling xLogin v1.0.0
+[21:07:37 INFO]: [xLogin] xLogin habilitado: dialogos para 1.21.6+, chat para versiones anteriores.
+[21:07:37 INFO]: [Physics] Enabling Physics v1.0.0
+[21:07:37 INFO]: [Physics] Physics habilitado.
+[21:07:37 INFO]: [Phaxi] Enabling Phaxi v1.0.0
+[21:07:37 INFO]: [Phaxi] Phaxi habilitado.
+[21:07:37 INFO]: [XautralMusic] Enabling XautralMusic v1.0.0
+[21:07:37 INFO]: [XautralMusic] XautralMusic habilitado. Carpeta: plugins/XautralMusic/music | HTTP: 0.0.0.0:8008
+[21:07:37 INFO]: [spark] Starting background profiler...
+[21:07:37 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:07:37 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:07:37 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:07:37 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:07:37 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:07:37 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:07:37 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:07:37 INFO]: Running delayed init tasks
+[21:07:37 INFO]: Done (18.868s)! For help, type "help"
+[21:07:37 INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[21:07:38 INFO]: *** Currently you are 9 builds behind ***
+[21:07:38 INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[21:07:48 INFO]: [XautralMusic] [XautralMusic] Pack: 3 tracks -> 3157725 bytes SHA1=03c57513
+[21:07:48 INFO]: [XautralMusic] [XautralMusic] HTTP :8008/pack.zip -> https://github.com/wwwilcoxon-eng/WillSrv/releases/download/xautralmusic-pack-1788383266370/pack.zip
+[21:07:48 INFO]: [XautralMusic] XautralMusic pack: 3 tracks SHA1=03c57513
+[21:10:14 INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[21:10:30 INFO]: [xLogin] Auto-login por IP privada para OmniXautral (IP 127.87.249.215 hash private vs stored gMTGVHCV)
+[21:10:30 INFO]: [38;2;255;255;85mOmniXautral joined the game[0m
+[21:10:30 INFO]: OmniXautral[/127.87.249.215:52533] logged in with entity id 64 at ([minecraft:overworld]-1203.4341397145492, 68.0, 13755.774512534723)
+[21:10:45 INFO]: OmniXautral issued server command: /playsound xautral:sfx.grunt_kill
+[21:10:45 INFO]: [3m[38;2;170;170;170m[OmniXautral: Played sound xautral:sfx.grunt_kill to OmniXautral][0m
+[21:10:48 INFO]: OmniXautral issued server command: /xm reload
+[21:10:51 INFO]: OmniXautral issued server command: /playsound xautral:sfx.grunt_kill
+[21:10:51 INFO]: [3m[38;2;170;170;170m[OmniXautral: Played sound xautral:sfx.grunt_kill to OmniXautral][0m
+[21:10:58 INFO]: [XautralMusic] [XautralMusic] Pack: 3 tracks -> 3157694 bytes SHA1=aa6d377f
+[21:10:58 INFO]: [XautralMusic] [XautralMusic] HTTP :8008/pack.zip -> https://github.com/wwwilcoxon-eng/WillSrv/releases/download/xautralmusic-pack-1788383456233/pack.zip
+[21:10:58 INFO]: [XautralMusic] Pack regenerado: 3 tracks
+[21:10:59 INFO]: OmniXautral issued server command: /playsound xautral:music.grinchultimatum
+[21:10:59 INFO]: [3m[38;2;170;170;170m[OmniXautral: Played sound xautral:music.grinchultimatum to OmniXautral][0m
+[21:11:18 INFO]: OmniXautral issued server command: /playsound xautral:music.grinchultimatum
+[21:11:18 INFO]: [3m[38;2;170;170;170m[OmniXautral: Played sound xautral:music.grinchultimatum to OmniXautral][0m
+[21:11:22 INFO]: OmniXautral issued server command: /playsound xautral:music.havoxel
+[21:11:22 INFO]: [3m[38;2;170;170;170m[OmniXautral: Played sound xautral:music.havoxel to OmniXautral][0m
+[21:11:29 INFO]: OmniXautral issued server command: /stop
+[21:11:29 INFO]: [3m[38;2;170;170;170m[OmniXautral: Stopping the server][0m
+[21:11:29 INFO]: Stopping server
+[21:11:29 INFO]: [XautralMusic] Disabling XautralMusic v1.0.0
+[21:11:29 INFO]: [XautralMusic] XautralMusic deshabilitado.
+[21:11:29 INFO]: [Phaxi] Disabling Phaxi v1.0.0
+[21:11:29 INFO]: [Phaxi] Phaxi deshabilitado.
+[21:11:29 INFO]: [Physics] Disabling Physics v1.0.0
+[21:11:29 INFO]: [xLogin] Disabling xLogin v1.0.0
+[21:11:29 INFO]: [xLogin] xLogin deshabilitado.
+[21:11:29 INFO]: [Weapons] Disabling Weapons v2.0.0
+[21:11:29 INFO]: [Restore] Disabling Restore v1.0.0
+[21:11:29 INFO]: [Restore] Restore deshabilitado.
+[21:11:29 INFO]: [INventory] Disabling INventory v1.0.0
+[21:11:29 INFO]: [INventory] INventory deshabilitado.
+[21:11:29 INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.5
+[21:11:29 INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
+[21:11:29 INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
+[21:11:29 INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[21:11:29 INFO]: Saving players
+[21:11:29 INFO]: OmniXautral lost connection: Server closed
+[21:11:29 INFO]: [38;2;255;255;85mOmniXautral left the game[0m
+[21:11:29 INFO]: Saving worlds
+[21:11:29 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:11:29 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[21:11:29 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[21:11:29 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[21:11:33 INFO]: [ChunkHolderManager] Saved 1961 block chunks, 800 entity chunks, 4 poi chunks in world 'minecraft:overworld' in 3.21s
+[21:11:33 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[21:11:33 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[21:11:33 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:11:33 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[21:11:33 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[21:11:33 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[21:11:33 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[21:11:33 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[21:11:33 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[21:11:33 INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:11:33 INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[21:11:33 INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[21:11:33 INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[21:11:33 INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[21:11:33 INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[21:11:33 INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[21:11:33 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:11:33 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:11:33 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:11:33 INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:11:33 INFO]: Waiting for all RegionFile I/O tasks to complete...
+[21:11:33 INFO]: All RegionFile I/O tasks to complete
+[21:11:33 INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[21:11:33 INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

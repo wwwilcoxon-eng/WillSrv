@@ -1,0 +1,5 @@
+extensions:
+- music
+- sfx
+namespace: xautral
+soundPrefix: ''
