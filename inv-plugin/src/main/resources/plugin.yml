@@ -1,0 +1,21 @@
+name: INventory
+version: 1.0.0
+main: dev.willsrv.inv.INventoryPlugin
+api-version: '26.2'
+author: Xautral
+description: Ve el inventario y el ender chest de cualquier jugador
+commands:
+  inv:
+    description: Ver el inventario de un jugador (cursor, crafteo, armor, manos)
+    usage: /inv <jugador>
+    aliases: [inventory]
+    permission: inv.view
+  ec:
+    description: Ver el ender chest de un jugador
+    usage: /ec [jugador]
+    aliases: [echest, enderchest]
+    permission: inv.view
+permissions:
+  inv.view:
+    description: Ver inventarios y ender chest de otros
+    default: op
