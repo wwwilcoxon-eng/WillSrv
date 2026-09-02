@@ -1,0 +1,195 @@
+[20:36:45] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[20:36:45] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-112-main@c9e894d (2026-08-11T05:18:39Z) for Minecraft 26.2
+[20:36:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:36:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 11 plugins
+[20:36:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (11):
+ - Death (1.0.0), INventory (1.0.0), Phaxi (1.0.0), Physics (1.0.0), Restore (1.0.0), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), Weapons (2.0.0), XautralMusic (1.0.0), xLogin (1.0.0)
+[20:36:50] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:36:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[20:36:51] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,058.9ms
+[20:36:54] [ServerMain/INFO]: Loaded 1585 recipes
+[20:36:54] [ServerMain/INFO]: Loaded 1688 advancements
+[20:36:54] [Server thread/INFO]: Starting minecraft server version 26.2
+[20:36:54] [Server thread/INFO]: Loading properties
+[20:36:54] [Server thread/INFO]: This server is running Paper version 26.2-112-main@c9e894d (2026-08-11T05:18:39Z) (Implementing API version 26.2.build.112-stable)
+[20:36:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:36:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:36:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:36:55] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:36:55] [Server thread/INFO]: Default game type: SURVIVAL
+[20:36:55] [Server thread/INFO]: Generating keypair
+[20:36:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:36:56] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:36:56] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:36:56] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[20:36:56] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[20:36:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:36:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:36:58] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[20:36:58] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[20:36:58] [Server thread/INFO]: [INventory] Loading server plugin INventory v1.0.0
+[20:36:58] [Server thread/INFO]: [Restore] Loading server plugin Restore v1.0.0
+[20:36:58] [Server thread/INFO]: [Weapons] Loading server plugin Weapons v2.0.0
+[20:36:58] [Server thread/INFO]: [xLogin] Loading server plugin xLogin v1.0.0
+[20:36:58] [Server thread/INFO]: [Physics] Loading server plugin Physics v1.0.0
+[20:36:58] [Server thread/INFO]: [Phaxi] Loading server plugin Phaxi v1.0.0
+[20:36:58] [Server thread/INFO]: [Death] Loading server plugin Death v1.0.0
+[20:36:58] [Server thread/INFO]: [XautralMusic] Loading server plugin XautralMusic v1.0.0
+[20:36:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[20:36:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.2.0.
+[20:36:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:36:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:36:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:36:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:36:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:36:59] [Server thread/INFO]: Preparing level "world"
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:37:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[20:37:00] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[20:37:00] [Server thread/INFO]: Preparing spawn area: 100%
+[20:37:00] [Server thread/INFO]: Prepared spawn area in 4 ms
+[20:37:00] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[20:37:00] [Server thread/INFO]: Prepared spawn area in 2 ms
+[20:37:00] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[20:37:00] [Server thread/INFO]: Prepared spawn area in 7 ms
+[20:37:00] [Server thread/INFO]: Done preparing level "world" (1.025s)
+[20:37:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[20:37:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[20:37:00] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[20:37:01] [Server thread/INFO]: [INventory] Enabling INventory v1.0.0
+[20:37:01] [Server thread/INFO]: [INventory] INventory habilitado.
+[20:37:01] [Server thread/INFO]: [Restore] Enabling Restore v1.0.0
+[20:37:01] [Server thread/INFO]: [Restore] Restore habilitado - sin tracking de chunks (solo /restore chunk).
+[20:37:01] [Server thread/INFO]: [Weapons] Enabling Weapons v2.0.0
+[20:37:01] [Server thread/INFO]: [Weapons] ItemEdit listo: /ie o /itemedit
+[20:37:01] [Server thread/INFO]: [xLogin] Enabling xLogin v1.0.0
+[20:37:01] [Server thread/INFO]: [xLogin] xLogin habilitado: dialogos para 1.21.6+, chat para versiones anteriores.
+[20:37:01] [Server thread/INFO]: [Physics] Enabling Physics v1.0.0
+[20:37:01] [Server thread/INFO]: [Physics] Physics habilitado.
+[20:37:01] [Server thread/INFO]: [Phaxi] Enabling Phaxi v1.0.0
+[20:37:01] [Server thread/INFO]: [Phaxi] Phaxi habilitado.
+[20:37:01] [Server thread/INFO]: [Death] Enabling Death v1.0.0
+[20:37:01] [Server thread/INFO]: [Death] Totem of Life recipe registrado (totem + bloques de oro)
+[20:37:01] [Server thread/INFO]: [Death] Death habilitado.
+[20:37:01] [Server thread/INFO]: [XautralMusic] Enabling XautralMusic v1.0.0
+[20:37:01] [Server thread/INFO]: [XautralMusic] XautralMusic habilitado. Carpeta: plugins/XautralMusic/music | HTTP: 0.0.0.0:8008
+[20:37:01] [Server thread/INFO]: [spark] Starting background profiler...
+[20:37:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:37:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:37:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:37:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:37:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:37:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:37:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:37:01] [Server thread/INFO]: Running delayed init tasks
+[20:37:01] [Server thread/INFO]: Done (17.670s)! For help, type "help"
+[20:37:01] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:37:01] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 9 builds behind ***
+[20:37:01] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[20:37:12] [Craft Scheduler Thread - 1 - XautralMusic/INFO]: [XautralMusic] [XautralMusic] Pack: 3 tracks -> 3157699 bytes SHA1=b4d796e7
+[20:37:12] [Craft Scheduler Thread - 1 - XautralMusic/INFO]: [XautralMusic] [XautralMusic] HTTP :8008/pack.zip -> https://github.com/wwwilcoxon-eng/WillSrv/releases/download/xautralmusic-pack-1788381430718/pack.zip
+[20:37:12] [Craft Scheduler Thread - 1 - XautralMusic/INFO]: [XautralMusic] XautralMusic pack: 3 tracks SHA1=b4d796e7
+[20:37:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - 26.2-112-c9e894d (MC: 26.2) ---
+[20:37:13] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[20:37:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:37:13] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[20:37:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:37:13] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[20:37:13] [Paper Watchdog Thread/ERROR]: 	PID: 49 | Suspended: false | Native: false | State: TIMED_WAITING
+[20:37:13] [Paper Watchdog Thread/ERROR]: 	Stack:
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:271)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitForTasks(MinecraftServer.java:1470)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:192)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.reloadResources(MinecraftServer.java:2350)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.ReloadCommand.reload(ReloadCommand.java:46)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.CraftServer.reloadData(CraftServer.java:1087)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		org.bukkit.Bukkit.reloadData(Bukkit.java:1038)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		Death-1.0.0.jar//dev.xautral.death.diff.util.AdvancementUtil.lambda$ensureDatapack$0(AdvancementUtil.java:112)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		Death-1.0.0.jar//dev.xautral.death.diff.util.AdvancementUtil$$Lambda/0x00000000267935a8.run(Unknown Source)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00000000260a7090.run(Unknown Source)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.runWith(Thread.java:1487)
+[20:37:13] [Paper Watchdog Thread/ERROR]: 		java.base@25.0.2/java.lang.Thread.run(Thread.java:1474)
+[20:37:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:37:13] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[20:37:13] [Paper Watchdog Thread/ERROR]: ------------------------------
+[20:37:14] [Server thread/INFO]: Loaded 1585 recipes
+[20:37:14] [Server thread/INFO]: Loaded 1688 advancements
+[20:37:16] [Server thread/INFO]: [Death] Datapack de logros de Hellish aun no registrado despues del reload.
+[20:37:40] [Server thread/INFO]: Stopping server
+[20:37:40] [Server thread/INFO]: [XautralMusic] Disabling XautralMusic v1.0.0
+[20:37:40] [Server thread/INFO]: [XautralMusic] XautralMusic deshabilitado.
+[20:37:40] [Server thread/INFO]: [Death] Disabling Death v1.0.0
+[20:37:40] [Server thread/INFO]: [Death] Death deshabilitado.
+[20:37:40] [Server thread/INFO]: [Phaxi] Disabling Phaxi v1.0.0
+[20:37:40] [Server thread/INFO]: [Phaxi] Phaxi deshabilitado.
+[20:37:40] [Server thread/INFO]: [Physics] Disabling Physics v1.0.0
+[20:37:40] [Server thread/INFO]: [xLogin] Disabling xLogin v1.0.0
+[20:37:40] [Server thread/INFO]: [xLogin] xLogin deshabilitado.
+[20:37:40] [Server thread/INFO]: [Weapons] Disabling Weapons v2.0.0
+[20:37:40] [Server thread/INFO]: [Restore] Disabling Restore v1.0.0
+[20:37:40] [Server thread/INFO]: [Restore] Restore deshabilitado.
+[20:37:40] [Server thread/INFO]: [INventory] Disabling INventory v1.0.0
+[20:37:40] [Server thread/INFO]: [INventory] INventory deshabilitado.
+[20:37:40] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.5
+[20:37:40] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
+[20:37:40] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
+[20:37:40] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[20:37:40] [Server thread/INFO]: Saving players
+[20:37:40] [Server thread/INFO]: Saving worlds
+[20:37:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.00s
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[20:37:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[20:37:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[20:37:40] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[20:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:37:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:37:40] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[20:37:40] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[20:37:40] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[20:37:40] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[20:37:41] [spark-monitoring-1-thread-1/ERROR]: [STDERR] [me.lucko.spark.paper.common.util.log.Logger$1] Uncaught exception thrown in thread spark-monitoring-1-thread-1
+[20:37:41] [spark-monitoring-1-thread-1/WARN]: java.util.concurrent.CancellationException
+[20:37:41] [spark-monitoring-1-thread-1/WARN]: 	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:123)
+[20:37:41] [spark-monitoring-1-thread-1/WARN]: 	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:193)
+[20:37:41] [spark-monitoring-1-thread-1/WARN]: 	at me.lucko.spark.paper.common.util.SparkScheduledThreadPoolExecutor.afterExecute(SparkScheduledThreadPoolExecutor.java:48)
+[20:37:41] [spark-monitoring-1-thread-1/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1091)
+[20:37:41] [spark-monitoring-1-thread-1/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+[20:37:41] [spark-monitoring-1-thread-1/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)

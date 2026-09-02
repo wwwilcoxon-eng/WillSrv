@@ -1,0 +1,27 @@
+name: xLogin
+version: 1.0.0
+main: dev.willsrv.xlogin.XLoginPlugin
+api-version: '26.2'
+author: Xautral
+softdepend:
+  - ViaVersion
+commands:
+  register:
+    aliases:
+      - reg
+  login:
+    aliases:
+      - l
+  unregister:
+    aliases:
+      - unreg
+      - desregistrar
+  mod:
+    permission: xlogin.mod
+permissions:
+  xlogin.mod:
+    description: Permite usar /mod on|off
+    default: op
+  xlogin.mod.bypass:
+    description: Ignora la censura del chat
+    default: false

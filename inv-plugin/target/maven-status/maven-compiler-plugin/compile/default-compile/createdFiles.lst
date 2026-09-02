@@ -1,0 +1,4 @@
+dev/willsrv/inv/InvCommand.class
+dev/willsrv/inv/INventoryPlugin.class
+dev/willsrv/inv/ReadOnlyInventoryListener.class
+dev/willsrv/inv/EcCommand.class
