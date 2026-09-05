@@ -1,0 +1,16 @@
+name: HellishMode
+version: 1.0.0
+main: dev.xautral.hellish.HellishPlugin
+api-version: '26.2'
+author: Xautral
+commands:
+  diffmode:
+    description: Activa/desactiva el modo Hellish con nivel de peligro y duracion
+    permission: death.diffmode
+    aliases:
+      - dm
+  deathsummon:
+    description: Invoca jefes y mobs del modo Hellish
+    usage: /deathsummon <skeletonboss|huskboss|daemon|phantom|endphantom|creeper|blaze|breeze> [jugador]
+    permission: death.diffmode
+softdepend: [Translate]

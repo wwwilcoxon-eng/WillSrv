@@ -1,0 +1,957 @@
+[15:00:43] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[15:00:43] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-112-main@c9e894d (2026-08-11T05:18:39Z) for Minecraft 26.2
+[15:00:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:00:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[15:00:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - Death (1.0.0), HellishMode (1.0.0), INventory (1.0.0), Phaxi (1.0.0), Physics (1.0.0), Restore (1.0.0), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), Weapons (2.0.0), sMusic (1.0), xLogin (1.0.0)
+[15:00:48] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:00:48] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[15:00:48] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[15:00:48] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[15:00:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:00:49] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 823.1ms
+[15:00:51] [ServerMain/INFO]: Loaded 1585 recipes
+[15:00:51] [ServerMain/INFO]: Loaded 1688 advancements
+[15:00:51] [Server thread/INFO]: Starting minecraft server version 26.2
+[15:00:51] [Server thread/INFO]: Loading properties
+[15:00:51] [Server thread/INFO]: This server is running Paper version 26.2-112-main@c9e894d (2026-08-11T05:18:39Z) (Implementing API version 26.2.build.112-stable)
+[15:00:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:00:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:00:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:00:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:00:52] [Server thread/INFO]: Default game type: SURVIVAL
+[15:00:52] [Server thread/INFO]: Generating keypair
+[15:00:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:00:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:00:52] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:00:53] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[15:00:53] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[15:00:54] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:00:54] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:00:54] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[15:00:54] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[15:00:54] [Server thread/INFO]: [INventory] Loading server plugin INventory v1.0.0
+[15:00:54] [Server thread/INFO]: [Restore] Loading server plugin Restore v1.0.0
+[15:00:54] [Server thread/INFO]: [Weapons] Loading server plugin Weapons v2.0.0
+[15:00:54] [Server thread/INFO]: [HellishMode] Loading server plugin HellishMode v1.0.0
+[15:00:54] [Server thread/INFO]: [xLogin] Loading server plugin xLogin v1.0.0
+[15:00:54] [Server thread/INFO]: [sMusic] Loading server plugin sMusic v1.0
+[15:00:54] [Server thread/INFO]: [Physics] Loading server plugin Physics v1.0.0
+[15:00:54] [Server thread/INFO]: [Phaxi] Loading server plugin Phaxi v1.0.0
+[15:00:54] [Server thread/INFO]: [Death] Loading server plugin Death v1.0.0
+[15:00:54] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[15:00:55] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.2.0.
+[15:00:55] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[15:00:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:00:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:00:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:00:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:00:55] [Server thread/INFO]: Preparing level "world"
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[15:00:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[15:00:56] [Server thread/INFO]: Loading 106 persistent chunks for level 'minecraft:overworld'...
+[15:00:56] [Server thread/INFO]: Preparing spawn area: 8%
+[15:00:57] [Server thread/INFO]: Preparing spawn area: 8%
+[15:00:57] [Server thread/INFO]: Prepared spawn area in 1264 ms
+[15:00:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[15:00:57] [Server thread/INFO]: Preparing spawn area: 100%
+[15:00:57] [Server thread/INFO]: Prepared spawn area in 1 ms
+[15:00:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[15:00:57] [Server thread/INFO]: Prepared spawn area in 2 ms
+[15:00:57] [Server thread/INFO]: Done preparing level "world" (2.005s)
+[15:00:57] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[15:00:57] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[15:00:57] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[15:00:57] [Server thread/INFO]: [INventory] Enabling INventory v1.0.0
+[15:00:57] [Server thread/INFO]: [INventory] INventory habilitado.
+[15:00:57] [Server thread/INFO]: [Restore] Enabling Restore v1.0.0
+[15:00:57] [Server thread/INFO]: [Restore] Restore habilitado - sin tracking de chunks (solo /restore chunk).
+[15:00:57] [Server thread/INFO]: [Weapons] Enabling Weapons v2.0.0
+[15:00:57] [Server thread/INFO]: [Weapons] ItemEdit listo: /ie o /itemedit
+[15:00:57] [Server thread/INFO]: [HellishMode] Enabling HellishMode v1.0.0
+[15:00:57] [Server thread/INFO]: [HellishMode] Hellish Mode habilitado.
+[15:00:57] [Server thread/INFO]: [HellishMode] Datapack de logros de Hellish instalado; se cargara en el proximo reinicio.
+[15:00:57] [Server thread/INFO]: [xLogin] Enabling xLogin v1.0.0
+[15:00:58] [Server thread/INFO]: [xLogin] xLogin habilitado: dialogos para 1.21.6+, chat para versiones anteriores.
+[15:00:58] [Server thread/INFO]: [sMusic] Enabling sMusic v1.0
+[15:00:58] [Server thread/INFO]:      _____  
+[15:00:58] [Server thread/INFO]:     / ____| 
+[15:00:58] [Server thread/INFO]:    | (___   
+[15:00:58] [Server thread/INFO]:     \___ \  
+[15:00:58] [Server thread/INFO]:     ____) | 
+[15:00:58] [Server thread/INFO]:    |_____/  
+[15:00:58] [Server thread/INFO]: 
+[15:00:58] [Server thread/INFO]:  sMusic [Enabled ✓]
+[15:00:58] [Server thread/INFO]:  by x.com/SunnyAim_
+[15:00:58] [Server thread/INFO]: 
+[15:00:58] [Server thread/INFO]: [sMusic] 🔁 No changes detected (files/config), keeping existing pack.
+[15:00:58] [Server thread/INFO]: [Physics] Enabling Physics v1.0.0
+[15:00:58] [Server thread/INFO]: [Physics] Physics habilitado.
+[15:00:58] [Server thread/INFO]: [Phaxi] Enabling Phaxi v1.0.0
+[15:00:58] [Server thread/INFO]: [Phaxi] Phaxi habilitado.
+[15:00:58] [Server thread/INFO]: [Death] Enabling Death v1.0.0
+[15:00:58] [Server thread/INFO]: [Death] Totem of Life recipe registrado (totem + bloques de oro)
+[15:00:58] [Server thread/INFO]: [Death] Death habilitado.
+[15:00:58] [Server thread/INFO]: [spark] Starting background profiler...
+[15:00:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:00:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:00:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:00:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:00:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:00:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:00:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:00:59] [Server thread/INFO]: Running delayed init tasks
+[15:00:59] [Server thread/INFO]: Done (18.531s)! For help, type "help"
+[15:00:59] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:00:59] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 9 builds behind ***
+[15:00:59] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[15:01:02] [Server thread/INFO]: [HellishMode] Datapack de logros de Hellish instalado; se cargara en el proximo reinicio.
+[15:05:30] [User Authenticator #0/INFO]: UUID of player crack_luis is 803cc3d1-aab5-36c8-b838-304ff99945f5
+[15:05:30] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [Death]
+[15:05:34] [Server thread/INFO]: crack_luis joined the game
+[15:05:34] [Server thread/INFO]: crack_luis[/127.1.21.235:41385] logged in with entity id 8 at ([minecraft:overworld]566.2375000119209, 63.0, 271.30000001192093)
+[15:07:08] [Server thread/INFO]: [Not Secure] [Server] ah í invito gente papito
+[15:07:16] [Async Chat Thread - #1/INFO]: [Not Secure] <crack_luis> ya bb
+[15:07:39] [Server thread/INFO]: [Not Secure] [Server] ahora si puedne meter gente gringa
+[15:07:46] [Async Chat Thread - #1/INFO]: [Not Secure] <crack_luis> q wea
+[15:07:58] [Server thread/INFO]: [Not Secure] [Server] carecemos de cultura :v
+[15:08:02] [Async Chat Thread - #1/INFO]: [Not Secure] <crack_luis> un ruso la va a chitear
+[15:08:03] [Async Chat Thread - #1/INFO]: [Not Secure] <crack_luis> un ruso la va a chitear
+[15:10:00] [Server thread/INFO]: [Not Secure] [Server] simn
+[15:11:40] [User Authenticator #1/INFO]: UUID of player PurdysWife is 891d9f39-fcca-3dbb-a5a0-ec3990ac03e0
+[15:12:09] [User Authenticator #2/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[15:12:22] [Server thread/INFO]: PurdysWife joined the game
+[15:12:22] [Server thread/INFO]: PurdysWife[/127.31.252.131:51145] logged in with entity id 1091 at ([minecraft:overworld]1164.5, 78.0, 1298.5)
+[15:12:55] [Server thread/INFO]: [xLogin] Auto-login por IP privada para OmniXautral (IP 127.87.249.215 hash private vs stored gMTGVHCV)
+[15:12:55] [Server thread/INFO]: OmniXautral joined the game
+[15:12:55] [Server thread/INFO]: OmniXautral[/127.87.249.215:34733] logged in with entity id 1136 at ([minecraft:overworld]595.1271941590684, 104.0, 1286.5175626452499)
+[15:13:03] [Server thread/INFO]: PurdysWife issued server command: /login annette7amor45
+[15:13:37] [Server thread/INFO]: crack_luis has made the advancement [Minecraft: Trial(s) Edition]
+[15:14:07] [Async Chat Thread - #3/INFO]: [Not Secure] <OmniXautral> who is bro
+[15:14:11] [Async Chat Thread - #3/INFO]: [Not Secure] <OmniXautral> :sob:
+[15:14:44] [Async Chat Thread - #3/INFO]: [Not Secure] <OmniXautral> no mames crack_luis me creerás que estoy tan traumado que pensé que ese wey era nexus?
+[15:15:00] [Async Chat Thread - #3/INFO]: [Not Secure] <crack_luis> ese w
+[15:15:10] [Async Chat Thread - #3/INFO]: [Not Secure] <OmniXautral> por suerte el bro es bueno
+[15:15:15] [Async Chat Thread - #3/INFO]: [Not Secure] <OmniXautral> its secure
+[15:15:23] [Server thread/INFO]: OmniXautral issued server command: /tp PurdysWife
+[15:15:23] [Server thread/INFO]: [OmniXautral: Teleported OmniXautral to PurdysWife]
+[15:15:36] [Async Chat Thread - #3/INFO]: [Not Secure] <OmniXautral> thi lil bro
+[15:15:50] [Async Chat Thread - #3/INFO]: [Not Secure] <crack_luis> w por que hay como 90 esqueletos en la trial
+[15:15:54] [Async Chat Thread - #3/INFO]: [Not Secure] <OmniXautral> quien sabe
+[15:16:03] [Async Chat Thread - #3/INFO]: [Not Secure] <PurdysWife> yo
+[15:16:08] [Async Chat Thread - #3/INFO]: [Not Secure] <crack_luis> tu q w
+[15:16:22] [Async Chat Thread - #3/INFO]: [Not Secure] <PurdysWife> thank you
+[15:16:27] [Async Chat Thread - #3/INFO]: [Not Secure] <OmniXautral> watch th ths
+[15:17:06] [Server thread/INFO]: PurdysWife has made the advancement [Monster Hunter]
+[15:17:25] [Server thread/INFO]: crack_luis has made the advancement [Under Lock and Key]
+[15:17:29] [Async Chat Thread - #5/INFO]: [Not Secure] <OmniXautral> shit
+[15:17:35] [Async Chat Thread - #5/INFO]: [Not Secure] <PurdysWife> what you doin bro
+[15:18:14] [Async Chat Thread - #5/INFO]: [Not Secure] <OmniXautral> can you break doors and pots
+[15:18:16] [Async Chat Thread - #5/INFO]: [Not Secure] <OmniXautral> and heads
+[15:18:20] [Async Chat Thread - #5/INFO]: [Not Secure] <OmniXautral> like with physics
+[15:18:25] [Async Chat Thread - #5/INFO]: [Not Secure] <crack_luis> ñ
+[15:18:30] [Async Chat Thread - #5/INFO]: [Not Secure] <OmniXautral> callate wey
+[15:18:32] [Async Chat Thread - #5/INFO]: [Not Secure] <crack_luis> XD
+[15:18:45] [Async Chat Thread - #5/INFO]: [Not Secure] <PurdysWife> no
+[15:18:49] [Async Chat Thread - #5/INFO]: [Not Secure] <OmniXautral> ok
+[15:18:56] [Async Chat Thread - #5/INFO]: [Not Secure] <OmniXautral> i let you play
+[15:19:04] [Async Chat Thread - #5/INFO]: [Not Secure] <PurdysWife> thanks
+[15:19:05] [Async Chat Thread - #5/INFO]: [Not Secure] <OmniXautral> can you break the doors like 2.5 sec runnings or 3.5 secs
+[15:19:12] [Async Chat Thread - #6/INFO]: [Not Secure] <OmniXautral> and its all
+[15:19:18] [Async Chat Thread - #6/INFO]: [Not Secure] <OmniXautral> doenst have the game custom weapons or other
+[15:19:56] [Server thread/INFO]: OmniXautral issued server command: /tps
+[15:22:25] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.sfx_gruntkill master @a ~ ~ ~ 2348723489 1 1
+[15:22:25] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.sfx_gruntkill to 3 players]
+[15:22:30] [Server thread/INFO]: [OmniXautral: Set own game mode to Spectator Mode]
+[15:22:43] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.sfx_gruntkill master @a ~ ~ ~ 2348723489 1 1
+[15:22:43] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.sfx_gruntkill to 3 players]
+[15:22:44] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.sfx_gruntkill master @a ~ ~ ~ 2348723489 1 1t
+[15:23:08] [Server thread/WARN]: [Physics] Task #13 for Physics v1.0.0 generated an exception
+java.lang.IllegalArgumentException: x not finite
+	at org.bukkit.util.NumberConversions.checkFinite(NumberConversions.java:118) ~[paper-api-26.2.build.112-stable.jar:?]
+	at org.bukkit.Location.checkFinite(Location.java:1167) ~[paper-api-26.2.build.112-stable.jar:?]
+	at org.bukkit.craftbukkit.entity.CraftEntity.teleport(CraftEntity.java:305) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at org.bukkit.craftbukkit.entity.CraftEntity.teleport(CraftEntity.java:297) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at org.bukkit.craftbukkit.entity.CraftEntity.teleport(CraftEntity.java:292) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at Physics-1.0.0.jar//dev.willsrv.physics.PhysicsManager.stepPhysics(PhysicsManager.java:479) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[15:23:08] [Server thread/WARN]: [Physics] [Physics] Eliminando cuerpo corrupto (NaN/Inf) id=7422e70d-02ed-4305-ba63-9fdb5d6f47a5 tipo=WAXED_OXIDIZED_COPPER_TRAPDOOR
+[15:23:34] [Server thread/INFO]: PurdysWife has made the advancement [Stone Age]
+[15:23:42] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.sfx_gruntkill master @a ~ ~ ~ 2348723489 1 1t
+[15:23:44] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.sfx_gruntkill master @a ~ ~ ~ 2348723489 1 1
+[15:23:44] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.sfx_gruntkill to 3 players]
+[15:24:02] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.havoxel master @a ~ ~ ~ 23482342 1 1
+[15:24:02] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.havoxel to 3 players]
+[15:25:18] [Server thread/INFO]: PurdysWife has made the advancement [Getting an Upgrade]
+[15:26:01] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.shoes master @a ~ ~ ~ 23482342 1 1
+[15:26:01] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.shoes to 3 players]
+[15:26:09] [Server thread/INFO]: crack_luis has made the advancement [Who Needs Rockets?]
+[15:27:57] [Server thread/INFO]: OmniXautral issued server command: /tps
+[15:30:51] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.betrayal master @a ~ ~ ~ 2354234762347 1.1 1
+[15:30:51] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.betrayal to 3 players]
+[15:31:27] [Async Chat Thread - #7/INFO]: [Not Secure] <OmniXautral> eyo
+[15:31:30] [Async Chat Thread - #8/INFO]: [Not Secure] <OmniXautral> i gonna invite people
+[15:31:35] [Async Chat Thread - #8/INFO]: [Not Secure] <OmniXautral> i watch you in the console
+[15:31:50] [Async Chat Thread - #8/INFO]: [Not Secure] <crack_luis> and me?
+[15:31:54] [Async Chat Thread - #8/INFO]: [Not Secure] <OmniXautral> lo mismo para ti krico_luis
+[15:32:05] [Async Chat Thread - #8/INFO]: [Not Secure] <OmniXautral> te veré en la consola
+[15:32:18] [Async Chat Thread - #8/INFO]: [Not Secure] <OmniXautral> anything can you type in the chat PurdysWife
+[15:32:24] [Server thread/INFO]: OmniXautral lost connection: Disconnected
+[15:32:24] [Server thread/INFO]: OmniXautral left the game
+[15:32:37] [Async Chat Thread - #8/INFO]: [Not Secure] <crack_luis> yo
+[15:32:38] [Async Chat Thread - #8/INFO]: [Not Secure] <crack_luis> ngga
+[15:32:41] [Async Chat Thread - #8/INFO]: [Not Secure] <crack_luis> wsp
+[15:32:44] [Async Chat Thread - #8/INFO]: [Not Secure] <PurdysWife> yoo
+[15:32:53] [Async Chat Thread - #8/INFO]: [Not Secure] <PurdysWife> was good
+[15:33:15] [Async Chat Thread - #8/INFO]: [Not Secure] <PurdysWife> im kinda a noob bro T-T
+[15:33:24] [Async Chat Thread - #8/INFO]: [Not Secure] <crack_luis> lmao
+[15:33:46] [Async Chat Thread - #8/INFO]: [Not Secure] <PurdysWife> yeah
+[15:33:53] [Async Chat Thread - #8/INFO]: [Not Secure] <crack_luis> Make yourself diamond armor and well be a team
+[15:34:04] [Async Chat Thread - #8/INFO]: [Not Secure] <PurdysWife> bet
+[15:36:32] [Server thread/INFO]: [Not Secure] [Server] 777
+[15:36:41] [Async Chat Thread - #9/INFO]: [Not Secure] <crack_luis> brazino?
+[15:37:09] [Async Chat Thread - #9/INFO]: [Not Secure] <crack_luis> para que sirve la armadura de nautilo
+[15:37:23] [Server thread/INFO]: PurdysWife has made the advancement [Acquire Hardware]
+[15:37:39] [Server thread/INFO]: PurdysWife has made the advancement [Isn't It Iron Pick]
+[15:38:39] [Server thread/INFO]: [Not Secure] [Server] para los nautilos cfff
+[15:38:50] [Server thread/INFO]: [Not Secure] [Server] para montarlos y protegerlos y chingadersa así
+[15:38:53] [Async Chat Thread - #11/INFO]: [Not Secure] <crack_luis> q si w
+[15:38:56] [Async Chat Thread - #11/INFO]: [Not Secure] <crack_luis> pero aparte de eso
+[15:39:01] [Async Chat Thread - #11/INFO]: [Not Secure] <crack_luis> tipo algun crafteo custom
+[15:40:07] [Server thread/INFO]: crack_luis has made the advancement [Voluntary Exile]
+[15:41:54] [Server thread/INFO]: [Not Secure] [Server] pues se usa la armro de nautilos para los slots bloqueados
+[15:41:58] [Server thread/INFO]: [Not Secure] [Server] ahí se mete uno
+[15:42:13] [Async Chat Thread - #13/INFO]: [Not Secure] <crack_luis> armadura de nautilo rodeado de diamantes?
+[15:42:21] [Async Chat Thread - #13/INFO]: [Not Secure] <crack_luis> ese es el crafteo?
+[15:44:39] [Server thread/INFO]: PurdysWife has made the advancement [Not Today, Thank You]
+[15:46:15] [Server thread/INFO]: [Not Secure] [Server] si
+[15:46:53] [Async Chat Thread - #15/INFO]: [Not Secure] <crack_luis> e w mi armadura de nautilo
+[15:46:56] [Async Chat Thread - #16/INFO]: [Not Secure] <crack_luis> me la quitaste?
+[15:47:15] [User Authenticator #3/INFO]: UUID of player ElPanzon___ is 6abd51b9-8057-34f6-b9dc-974379542ef7
+[15:48:01] [Server thread/INFO]: ElPanzon___ joined the game
+[15:48:01] [Server thread/INFO]: ElPanzon___[/127.210.252.50:46613] logged in with entity id 12995 at ([minecraft:overworld]1170.5, 65.0, 1295.5)
+[15:48:43] [Server thread/INFO]: ElPanzon___ issued server command: /skin Boulorwww
+[15:48:54] [Server thread/INFO]: [Not Secure] [Server] ElPanzon__ V.S. ElFlaco___
+[15:49:01] [Async Chat Thread - #17/INFO]: [Not Secure] <crack_luis> ese w
+[15:50:55] [Server thread/INFO]: [Death] [Death] ElPanzon___ murió en 1183, 64, 1320 (world)
+[15:50:55] [Server thread/INFO]: [Death] Muerte de ElPanzon___: drops=0 keepInventory=false itemsACofrar=0
+[15:50:55] [Server thread/INFO]: ElPanzon___ was slain by Drowned
+[15:50:55] [Server thread/WARN]: [Death] RespawnEvent corrigiendo ElPanzon___ de Location{world=CraftWorld{key=minecraft:overworld},x=1169.5,y=77.0,z=1302.5,pitch=0.0,yaw=0.0} a Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0}
+[15:50:56] [Server thread/INFO]: crack_luis has reached the goal [Revaulting]
+[15:51:00] [Server thread/INFO]: ElPanzon___ lost connection: Death
+
+ElPanzon___ was slain by Drowned
+
+§6[Vidas] §7Vidas restantes: §c9
+[15:51:00] [Server thread/INFO]: ElPanzon___ left the game
+[15:51:17] [Server thread/INFO]: [Not Secure] [Server] se murió
+[15:51:19] [Server thread/INFO]: [Not Secure] [Server] jusjuasujasujas
+[15:51:36] [Server thread/INFO]: [Not Secure] [Server] the bro die
+[15:51:52] [User Authenticator #4/INFO]: UUID of player ElPanzon___ is 6abd51b9-8057-34f6-b9dc-974379542ef7
+[15:52:11] [Server thread/INFO]: [Death] Respawn de ElPanzon___: solicitado=null, resuelto=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} safe=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} mundoActual=world
+[15:52:11] [Server thread/INFO]: ElPanzon___ joined the game
+[15:52:11] [Server thread/INFO]: ElPanzon___[/127.210.252.50:36987] logged in with entity id 14686 at ([minecraft:overworld]1183.300000011921, 64.0, 1319.5772796233418)
+[15:52:21] [Async Chat Thread - #19/INFO]: [Not Secure] <ElPanzon___> xd como mori?
+[15:52:26] [Server thread/INFO]: PurdysWife has made the advancement [Suit Up]
+[15:52:33] [Server thread/INFO]: [Not Secure] [Server] ahí te salió
+[15:52:35] [Server thread/INFO]: [Not Secure] [Server] por un drowned
+[15:53:20] [Server thread/INFO]: ElPanzon___ has made the advancement [Stone Age]
+[15:53:41] [Server thread/INFO]: ElPanzon___ has made the advancement [Getting an Upgrade]
+[15:54:49] [Server thread/INFO]: ElPanzon___ has made the advancement [Monster Hunter]
+[15:56:53] [Server thread/INFO]: [Death] [Death] ElPanzon___ murió en 1228, 64, 1425 (world)
+[15:56:53] [Server thread/INFO]: [Death] Muerte de ElPanzon___: drops=8 keepInventory=false itemsACofrar=8
+[15:56:53] [Server thread/INFO]: [Death] Colocando cofre de muerte en world Location{world=CraftWorld{key=minecraft:overworld},x=1228.0,y=63.0,z=1425.0,pitch=0.0,yaw=0.0} (8 stacks)
+[15:56:53] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1228.0,y=63.0,z=1425.0,pitch=0.0,yaw=0.0}: 8 items reales en el mundo
+[15:56:53] [Server thread/INFO]: ElPanzon___ was shot by Skeleton
+[15:56:54] [Server thread/WARN]: [Death] RespawnEvent corrigiendo ElPanzon___ de Location{world=CraftWorld{key=minecraft:overworld},x=1169.5,y=65.0,z=1296.5,pitch=0.0,yaw=0.0} a Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0}
+[15:56:55] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1228.0,y=63.0,z=1425.0,pitch=0.0,yaw=0.0}: 8 items reales en el mundo
+[15:56:56] [Async Chat Thread - #21/INFO]: [Not Secure] <ElPanzon___> xd
+[15:56:58] [Server thread/INFO]: ElPanzon___ lost connection: Death
+
+ElPanzon___ was shot by Skeleton
+
+§6[Vidas] §7Vidas restantes: §c8
+
+§7Tu cofre está en §b1228, 63, 1425 (world)
+[15:56:58] [Server thread/INFO]: ElPanzon___ left the game
+[15:57:18] [User Authenticator #5/INFO]: UUID of player ElPanzon___ is 6abd51b9-8057-34f6-b9dc-974379542ef7
+[15:57:39] [Server thread/INFO]: [Not Secure] [Server] tiene 8 vidas restantes ese wey
+[15:57:52] [Server thread/INFO]: [Death] Respawn de ElPanzon___: solicitado=null, resuelto=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} safe=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} mundoActual=world
+[15:57:52] [Server thread/INFO]: ElPanzon___ joined the game
+[15:57:52] [Server thread/INFO]: ElPanzon___[/127.210.252.50:38239] logged in with entity id 17001 at ([minecraft:overworld]1235.2101613014274, 63.723488567554845, 1426.2904537838008)
+[15:58:00] [Server thread/INFO]: [Not Secure] [Server] y tremendo exitoso por que el sis e activo el txt pack de música ambiental
+[15:58:21] [Server thread/INFO]: There are 3 of a max of 20 players online: crack_luis, PurdysWife, ElPanzon___
+[16:00:29] [Server thread/INFO]: crack_luis has made the advancement [Wax Off]
+[16:03:34] [Server thread/INFO]: [Not Secure] [Server] 777
+[16:03:35] [Server thread/INFO]: ℹ Server Plugins (12):
+[16:03:35] [Server thread/INFO]: Bukkit Plugins:
+[16:03:35] [Server thread/INFO]:  - Death, HellishMode, INventory, Phaxi, Physics, Restore, SkinsRestorer, sMusic, ViaBackwards, ViaVersion
+[16:03:35] [Server thread/INFO]:  Weapons, xLogin
+[16:03:41] [Async Chat Thread - #23/INFO]: [Not Secure] <crack_luis> brazino?
+[16:04:52] [Server thread/INFO]: PurdysWife has made the advancement [Diamonds!]
+[16:05:16] [Server thread/WARN]: [Physics] Task #13 for Physics v1.0.0 generated an exception
+java.lang.IllegalArgumentException: x not finite
+	at org.bukkit.util.NumberConversions.checkFinite(NumberConversions.java:118) ~[paper-api-26.2.build.112-stable.jar:?]
+	at org.bukkit.Location.checkFinite(Location.java:1167) ~[paper-api-26.2.build.112-stable.jar:?]
+	at org.bukkit.craftbukkit.entity.CraftEntity.teleport(CraftEntity.java:305) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at org.bukkit.craftbukkit.entity.CraftEntity.teleport(CraftEntity.java:297) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at org.bukkit.craftbukkit.entity.CraftEntity.teleport(CraftEntity.java:292) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at Physics-1.0.0.jar//dev.willsrv.physics.PhysicsManager.stepPhysics(PhysicsManager.java:479) ~[?:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1767) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:05:16] [Server thread/WARN]: [Physics] [Physics] Eliminando cuerpo corrupto (NaN/Inf) id=36cb7c57-7831-4924-b3ce-8ed28e044e1b tipo=WAXED_OXIDIZED_COPPER_DOOR
+[16:09:02] [User Authenticator #6/INFO]: UUID of player albertororo is 6fa58006-bd97-3c17-9dd2-71e9fcaa4ee0
+[16:09:04] [Async Chat Thread - #26/INFO]: [Not Secure] <ElPanzon___> encontre una base
+[16:09:12] [User Authenticator #7/INFO]: UUID of player jmessi74 is b6cd7db2-8238-3e32-b6b0-3a7719ca64a7
+[16:09:23] [Server thread/INFO]: albertororo joined the game
+[16:09:23] [Server thread/INFO]: albertororo[/127.180.210.104:58011] logged in with entity id 23197 at ([minecraft:overworld]1165.5, 63.0, 1306.5)
+[16:09:30] [Server thread/INFO]: jmessi74 joined the game
+[16:09:30] [Server thread/INFO]: jmessi74[/127.187.19.74:55359] logged in with entity id 23257 at ([minecraft:overworld]1166.5, 77.0, 1305.5)
+[16:09:57] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> XD
+[16:09:59] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> xd
+[16:10:01] [Server thread/INFO]: albertororo issued server command: /skin set farfadox
+[16:10:36] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> pasen cords malditos
+[16:10:39] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> xd
+[16:10:40] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> hola
+[16:10:43] [User Authenticator #8/INFO]: UUID of player SwithGz is 853993a8-a496-3bc7-903a-efb8173758c6
+[16:10:47] [Server thread/INFO]: [Not Secure] [Server] ese we scffff
+[16:10:48] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> olap
+[16:10:49] [Server thread/INFO]: There are 5 of a max of 20 players online: crack_luis, PurdysWife, ElPanzon___, albertororo, jmessi74
+[16:10:52] [Server thread/INFO]: SwithGz joined the game
+[16:10:52] [Server thread/INFO]: SwithGz[/127.51.95.209:56163] logged in with entity id 24130 at ([minecraft:overworld]1171.5, 63.0, 1295.5)
+[16:10:59] [Server thread/INFO]: [Not Secure] [Server] SwithGz god por que se puso el txt pack
+[16:11:00] [Server thread/WARN]: SwithGz was kicked for floating too long!
+[16:11:00] [Server thread/INFO]: SwithGz lost connection: Flying is not enabled on this server
+[16:11:00] [Server thread/INFO]: SwithGz left the game
+[16:11:04] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> ese w
+[16:11:04] [Server thread/INFO]: albertororo has made the advancement [Stone Age]
+[16:11:05] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[16:11:09] [User Authenticator #9/INFO]: UUID of player SwithGz is 853993a8-a496-3bc7-903a-efb8173758c6
+[16:11:09] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> te ago las herramientas
+[16:11:11] [Server thread/INFO]: SwithGz joined the game
+[16:11:11] [Server thread/INFO]: SwithGz[/127.51.95.209:35649] logged in with entity id 24372 at ([minecraft:overworld]1171.5, 63.7531999805212, 1295.5)
+[16:11:12] [Server thread/INFO]: jmessi74 has made the advancement [Stone Age]
+[16:11:12] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> a
+[16:11:15] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> no chill
+[16:11:19] [Server thread/INFO]: Villager Villager['Villager'/18264, uuid='5b0b3bd4-ef0e-40e3-a94d-060ef9f5b1f7', l='ServerLevel[world]', x=1182.58, y=63.00, z=1678.32, cpos=[73, 104], tl=13469, v=true] died, message: 'Villager was slain by ElPanzon___'
+[16:11:21] [Server thread/INFO]: Villager Villager['Villager'/18263, uuid='050e3cd5-5140-4a7f-b278-8dd8a2f54617', l='ServerLevel[world]', x=1183.56, y=64.00, z=1677.80, cpos=[73, 104], tl=13517, v=true] died, message: 'Villager was slain by ElPanzon___'
+[16:11:23] [Server thread/INFO]: Villager Villager['Villager'/18265, uuid='72e283e2-5188-471c-a86c-2a34caa5a7a3', l='ServerLevel[world]', x=1183.70, y=64.00, z=1677.30, cpos=[73, 104], tl=13562, v=true] died, message: 'Villager was slain by ElPanzon___'
+[16:11:24] [Server thread/INFO]: Villager Villager['Villager'/18262, uuid='1c8e3674-9a33-43e8-b4d9-96c08dbe84f7', l='ServerLevel[world]', x=1181.73, y=63.00, z=1679.78, cpos=[73, 104], tl=13588, v=true] died, message: 'Villager was slain by ElPanzon___'
+[16:11:35] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> el que me haga una granja de endermans le doy full diamante prote 4
+[16:11:39] [Server thread/INFO]: albertororo has made the advancement [Getting an Upgrade]
+[16:11:39] [Server thread/INFO]: ElPanzon___ has made the advancement [Sweet Dreams]
+[16:11:42] [Server thread/INFO]: SwithGz was kicked due to keepalive timeout!
+[16:11:42] [Server thread/INFO]: SwithGz lost connection: Timed out
+[16:11:42] [Server thread/INFO]: SwithGz left the game
+[16:11:49] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> ase cuanto empezo el server?
+[16:11:54] [Server thread/INFO]: [Not Secure] [Server] que pedo con el ping de SWith
+[16:11:57] [Server thread/INFO]: [Not Secure] [Server] jmessi hace 3 días
+[16:11:59] [User Authenticator #10/INFO]: UUID of player SwithGz is 853993a8-a496-3bc7-903a-efb8173758c6
+[16:12:01] [Server thread/INFO]: SwithGz joined the game
+[16:12:01] [Server thread/INFO]: SwithGz[/127.51.95.209:41629] logged in with entity id 24817 at ([minecraft:overworld]1171.5, 63.0, 1295.5)
+[16:12:02] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> joder
+[16:12:03] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> mm
+[16:12:09] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> vamos atrasaddos
+[16:12:14] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> re atrasados xd
+[16:12:28] [Server thread/INFO]: jmessi74 has made the advancement [Getting an Upgrade]
+[16:12:34] [Server thread/INFO]: SwithGz was kicked due to keepalive timeout!
+[16:12:34] [Server thread/INFO]: SwithGz lost connection: Timed out
+[16:12:34] [Server thread/INFO]: SwithGz left the game
+[16:12:38] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> WTF XD
+[16:12:46] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> que mierd
+[16:12:46] [Server thread/INFO]: [Death] [Death] albertororo murió en 1187, 61, 1378 (world)
+[16:12:46] [Server thread/INFO]: [Death] Muerte de albertororo: drops=10 keepInventory=false itemsACofrar=10
+[16:12:46] [Server thread/INFO]: [Death] Colocando cofre de muerte en world Location{world=CraftWorld{key=minecraft:overworld},x=1186.0,y=60.0,z=1377.0,pitch=0.0,yaw=0.0} (10 stacks)
+[16:12:46] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1186.0,y=60.0,z=1377.0,pitch=0.0,yaw=0.0}: 10 items reales en el mundo
+[16:12:46] [Server thread/INFO]: albertororo was shot by Skeleton
+[16:12:47] [Server thread/WARN]: [Death] RespawnEvent corrigiendo albertororo de Location{world=CraftWorld{key=minecraft:overworld},x=1170.5,y=65.0,z=1294.5,pitch=0.0,yaw=0.0} a Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0}
+[16:12:48] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1186.0,y=60.0,z=1377.0,pitch=0.0,yaw=0.0}: 10 items reales en el mundo
+[16:12:50] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> Q MRD???
+[16:12:51] [Server thread/INFO]: albertororo lost connection: Death
+
+albertororo was shot by Skeleton
+
+§6[Vidas] §7Vidas restantes: §c9
+
+§7Tu cofre está en §b1186, 60, 1377 (world)
+[16:12:51] [Server thread/INFO]: albertororo left the game
+[16:13:06] [User Authenticator #11/INFO]: UUID of player albertororo is 6fa58006-bd97-3c17-9dd2-71e9fcaa4ee0
+[16:13:15] [Server thread/INFO]: [Death] Respawn de albertororo: solicitado=null, resuelto=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} safe=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} mundoActual=world
+[16:13:15] [Server thread/INFO]: albertororo joined the game
+[16:13:15] [Server thread/INFO]: albertororo[/127.180.210.104:39033] logged in with entity id 25383 at ([minecraft:overworld]1186.3941876247911, 62.397729726979236, 1381.240985012534)
+[16:13:21] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> q pedo
+[16:13:31] [Server thread/INFO]: There are 5 of a max of 20 players online: crack_luis, PurdysWife, ElPanzon___, jmessi74, albertororo
+[16:13:43] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> oigan q son esos bichos
+[16:13:49] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> esqueletos q no mueren
+[16:13:56] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> es de sia y aparecieron esquelotos con ballados esqueletos...
+[16:13:58] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> con poder 3
+[16:14:17] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> estan en grupos?
+[16:14:39] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> cada q mueres pierdes 1 vida
+[16:14:42] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> ya tengo 9
+[16:14:44] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> serio?
+[16:14:47] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> si
+[16:14:49] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> vamos por tus cusas aver
+[16:14:53] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> no we
+[16:14:57] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> estan alla los mobs
+[16:14:58] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> el que me haga una granja de endermans le doy full diamante prote 4
+[16:14:58] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> el que me haga una granja de endermans le doy full diamante prote 4
+[16:15:06] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> q es esto
+[16:15:11] [Server thread/INFO]: [Not Secure] [Server] de q
+[16:15:12] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> crack yo se hacer pero me vas a dar los materiales?
+[16:15:21] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> no w
+[16:15:32] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> yo igual se hacer xd
+[16:15:36] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> pero me da pereza
+[16:15:37] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> ALA MRD WE
+[16:15:40] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> q
+[16:15:44] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> q paso
+[16:15:47] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> tiene mejoras de mobs
+[16:16:02] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> jder
+[16:16:13] [Server thread/INFO]: [Not Secure] [Server] oigan gente
+[16:16:14] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> ven mira
+[16:16:16] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> ke
+[16:16:18] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> q
+[16:16:30] [Server thread/INFO]: [Not Secure] [Server] ustedes como personas con neuronas, creen que se puede realmente robar una cuenta de mc tan solo estando en un servidor?
+[16:16:38] [Server thread/INFO]: [Not Secure] [Server] digo por que veo el chat y si hay gente que piensa que si
+[16:16:44] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> nop
+[16:16:46] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> albeeee
+[16:16:48] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> venii
+[16:16:48] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> q
+[16:16:54] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> miraaa
+[16:17:05] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> de hecho si hay una manera
+[16:17:07] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> ala xd
+[16:17:08] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> xd
+[16:17:20] [Server thread/INFO]: [Not Secure] [Server] no del todo
+[16:17:20] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> cueva
+[16:17:30] [Server thread/INFO]: [Not Secure] [Server] el plugin de xLogin usa un script de salt para la contraseña e ip
+[16:17:37] [Server thread/INFO]: [Not Secure] [Server] ni cagando pueden ver sus ips en la consola
+[16:17:39] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> q mierd
+[16:17:52] [Server thread/INFO]: [Not Secure] [Server] precisamente para evita que simios entraran y dijeran que los estoy hakiando
+[16:17:55] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> no hay cerdos animalaes ni nada bld
+[16:18:01] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> si ay
+[16:18:01] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> a
+[16:18:07] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> wven
+[16:18:17] [Server thread/INFO]: [Not Secure] [Server] y de hecho :nerd:
+[16:18:22] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> busquemos mina
+[16:18:26] [Server thread/INFO]: [Not Secure] [Server] si alguien les da su IP no se culeen
+[16:18:27] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> priemro comida
+[16:18:31] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> a
+[16:18:32] [Server thread/INFO]: [Not Secure] [Server] por que la IP es del origen del dispositivo
+[16:18:34] [Server thread/INFO]: [Not Secure] [Server] no de su casa
+[16:18:35] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> ala
+[16:18:39] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> mira vacas
+[16:18:41] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> yo consigo comida
+[16:18:41] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> de hecho si hay una manera
+[16:18:44] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> el que me haga una granja de endermans le doy full diamante prote 4
+[16:18:45] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> el que me haga una granja de endermans le doy full diamante prote 4
+[16:18:45] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> el que me haga una granja de endermans le doy full diamante prote 4
+[16:18:46] [Server thread/INFO]: Villager Villager['Villager'/18213, uuid='bba8b1b7-7bec-42a0-b3f8-2f5d0624bd23', l='ServerLevel[world]', x=1203.30, y=45.00, z=1660.50, cpos=[75, 103], tl=22536, v=true] died, message: 'Villager was slain by ElPanzon___'
+[16:18:49] [Server thread/INFO]: [Not Secure] [Server] que si putita
+[16:18:54] [Server thread/INFO]: [Not Secure] [Server] si se que hay una manera
+[16:19:02] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> w solo aprete la flecha de arriba
+[16:19:07] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> y era el ultimo mensaje que envie
+[16:19:07] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> sandias we
+[16:19:11] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> ven
+[16:19:24] [Server thread/INFO]: crack_luis lost connection: Disconnected
+[16:19:24] [Server thread/INFO]: crack_luis left the game
+[16:19:30] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> dnd fueste
+[16:19:53] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> bajamos?
+[16:20:00] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> cuanta comida tenes
+[16:20:00] [Server thread/INFO]: ElPanzon___ has made the advancement [What a Deal!]
+[16:20:05] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> 31 sandias
+[16:20:05] [Server thread/INFO]: There are 4 of a max of 20 players online: PurdysWife, ElPanzon___, jmessi74, albertororo
+[16:20:11] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> almenos 1 stack
+[16:20:16] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> de donde loco
+[16:20:40] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> baja tu mientras
+[16:20:43] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> bn
+[16:20:52] [Server thread/INFO]: ElPanzon___ lost connection: Disconnected
+[16:20:52] [Server thread/INFO]: ElPanzon___ left the game
+[16:20:56] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> cuantas sandias damm
+[16:21:16] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> we sabe sq?
+[16:21:17] [Server thread/INFO]: There are 3 of a max of 20 players online: PurdysWife, jmessi74, albertororo
+[16:21:19] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> q
+[16:21:27] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> en el smp del davik encontre un panda marron al lado de la base
+[16:21:33] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> xd
+[16:21:36] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> what
+[16:21:39] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> XD
+[16:21:55] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> trae madera
+[16:22:00] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> eso ago
+[16:22:34] [User Authenticator #12/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[16:23:00] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> diamantes loko
+[16:23:03] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> XD
+[16:23:31] [Server thread/INFO]: OmniXautral (f20b02b1-57da-34a4-912f-c54f973b3c4f) lost connection: Timed out
+[16:23:32] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> peram
+[16:23:33] [Server thread/INFO]: albertororo lost connection: Disconnected
+[16:23:34] [Server thread/INFO]: albertororo left the game
+[16:23:56] [User Authenticator #13/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[16:24:11] [Server thread/INFO]: [xLogin] Auto-login por IP privada para OmniXautral (IP 127.87.249.215 hash private vs stored gMTGVHCV)
+[16:24:11] [Server thread/INFO]: OmniXautral joined the game
+[16:24:11] [Server thread/INFO]: OmniXautral[/127.87.249.215:49063] logged in with entity id 30103 at ([minecraft:overworld]1281.4532471735754, 71.26246063281974, 1088.279145017617)
+[16:24:23] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> dmni
+[16:24:26] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> q pdo banda
+[16:24:28] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> una pregunta
+[16:24:41] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> pq quisieron fundar el server?
+[16:24:43] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[16:25:00] [Server thread/INFO]: [Not Secure] [Server] por que me dieron ganas
+[16:25:00] [Server thread/INFO]: OmniXautral lost connection: Timed out
+[16:25:00] [Server thread/INFO]: OmniXautral left the game
+[16:25:03] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> xd
+[16:25:11] [Server thread/INFO]: jmessi74 has made the advancement [Acquire Hardware]
+[16:25:18] [Server thread/INFO]: jmessi74 has made the advancement [Isn't It Iron Pick]
+[16:25:24] [User Authenticator #14/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[16:25:33] [Server thread/INFO]: jmessi74 has made the advancement [Suit Up]
+[16:25:38] [Server thread/INFO]: [xLogin] Auto-login por IP privada para OmniXautral (IP 127.87.249.215 hash private vs stored gMTGVHCV)
+[16:25:38] [Server thread/INFO]: OmniXautral joined the game
+[16:25:38] [Server thread/INFO]: OmniXautral[/127.87.249.215:53227] logged in with entity id 30458 at ([minecraft:overworld]1486.1976021100088, -13.0, 862.2123253901698)
+[16:25:50] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> hola
+[16:25:55] [User Authenticator #15/INFO]: UUID of player albertororo is 6fa58006-bd97-3c17-9dd2-71e9fcaa4ee0
+[16:25:55] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> hola
+[16:25:57] [Server thread/INFO]: [OmniXautral: Set own game mode to Creative Mode]
+[16:26:04] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> q ondaaa
+[16:26:06] [Server thread/INFO]: albertororo joined the game
+[16:26:06] [Server thread/INFO]: albertororo[/127.180.210.104:39573] logged in with entity id 30536 at ([minecraft:overworld]999.3000000119209, 71.0, 1184.3081218827822)
+[16:26:08] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> mira diamantes
+[16:26:09] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> wey que pedo voy bien PINCHE trabado
+[16:26:21] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> no los veo w
+[16:26:30] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> atras de la lava
+[16:26:44] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[16:26:46] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> albe te tengo pico
+[16:26:47] [Server thread/INFO]: [Not Secure] [Server] puta madre
+[16:26:51] [Server thread/INFO]: [Not Secure] [Server] por que mi mc va bien perros lag
+[16:26:52] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> q paso
+[16:26:53] [Server thread/INFO]: OmniXautral lost connection: Timed out
+[16:26:54] [Server thread/INFO]: OmniXautral left the game
+[16:26:55] [Server thread/INFO]: [Not Secure] [Server] se me trabo
+[16:27:06] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> albetoro tengo pico la vos
+[16:27:07] [Server thread/INFO]: [Not Secure] [Server] tengo un ping altisimo
+[16:27:09] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> ok
+[16:27:12] [Server thread/INFO]: albertororo has made the advancement [Monster Hunter]
+[16:27:14] [User Authenticator #16/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[16:27:26] [Server thread/INFO]: [xLogin] Auto-login por IP privada para OmniXautral (IP 127.87.249.215 hash private vs stored gMTGVHCV)
+[16:27:26] [Server thread/INFO]: OmniXautral joined the game
+[16:27:26] [Server thread/INFO]: OmniXautral[/127.87.249.215:47579] logged in with entity id 30789 at ([minecraft:overworld]1043.253953225639, -6.374324930462239, 1169.451303842708)
+[16:27:48] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.shoes master @a ~ ~ ~ 213623746 1 1
+[16:27:48] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.shoes to 4 players]
+[16:27:52] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> escuchan eso?
+[16:27:55] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> si
+[16:27:58] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> que mr
+[16:27:59] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> q?
+[16:28:01] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> 3
+[16:28:03] [Server thread/INFO]: OmniXautral issued server command: /stopsound @a
+[16:28:03] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:28:06] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.shoes master @a ~ ~ ~ 213623746 1 1
+[16:28:06] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.shoes to 4 players]
+[16:28:08] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> no escuho nd
+[16:28:10] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> mis oidos
+[16:28:15] [Server thread/INFO]: OmniXautral issued server command: /stopsound @a
+[16:28:15] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:28:22] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> quien no quiera oirla me avisa
+[16:28:26] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> yo
+[16:28:26] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> es que albertororo no tiene el txt pack
+[16:28:29] [Server thread/INFO]: jmessi74 has made the advancement [Diamonds!]
+[16:28:34] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.shoes master OmniXautral ~ ~ ~ 213623746 1 1
+[16:28:34] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.shoes to OmniXautral]
+[16:28:53] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> q hace
+[16:28:57] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> volando
+[16:28:59] [Server thread/INFO]: [OmniXautral: Set own game mode to Spectator Mode]
+[16:29:00] [Server thread/INFO]: [OmniXautral: Set own game mode to Creative Mode]
+[16:29:03] [Server thread/INFO]: [Death] [Death] albertororo murió en 1027, 50, 1226 (world)
+[16:29:03] [Server thread/INFO]: [Death] Muerte de albertororo: drops=11 keepInventory=false itemsACofrar=11
+[16:29:03] [Server thread/INFO]: [Death] Colocando cofre de muerte en world Location{world=CraftWorld{key=minecraft:overworld},x=1027.0,y=50.0,z=1225.0,pitch=0.0,yaw=0.0} (10 stacks)
+[16:29:03] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1027.0,y=50.0,z=1225.0,pitch=0.0,yaw=0.0}: 10 items reales en el mundo
+[16:29:03] [Server thread/INFO]: albertororo was shot by Skeleton
+[16:29:03] [Server thread/WARN]: [Death] RespawnEvent corrigiendo albertororo de Location{world=CraftWorld{key=minecraft:overworld},x=1172.5,y=63.0,z=1295.5,pitch=0.0,yaw=0.0} a Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0}
+[16:29:05] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1027.0,y=50.0,z=1225.0,pitch=0.0,yaw=0.0}: 10 items reales en el mundo
+[16:29:06] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> tmare
+[16:29:07] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> a
+[16:29:08] [Server thread/INFO]: albertororo lost connection: Death
+
+albertororo was shot by Skeleton
+
+§6[Vidas] §7Vidas restantes: §c8
+
+§7Tu cofre está en §b1027, 50, 1225 (world)
+[16:29:08] [Server thread/INFO]: albertororo left the game
+[16:29:21] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> mira esto
+[16:29:33] [User Authenticator #17/INFO]: UUID of player albertororo is 6fa58006-bd97-3c17-9dd2-71e9fcaa4ee0
+[16:29:39] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> que mierd
+[16:29:41] [Server thread/INFO]: [Death] Respawn de albertororo: solicitado=null, resuelto=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} safe=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} mundoActual=world
+[16:29:41] [Server thread/INFO]: albertororo joined the game
+[16:29:41] [Server thread/INFO]: albertororo[/127.180.210.104:43425] logged in with entity id 31419 at ([minecraft:overworld]1027.2353657131707, 50.25220334025373, 1225.6395501779286)
+[16:29:49] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> como lo haces
+[16:29:58] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> caimas durante un tiempo largo o corres a uan gran velocidad y las rompes
+[16:30:04] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> ostia
+[16:30:36] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> ala XD
+[16:30:43] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> WTFFF
+[16:30:47] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> que
+[16:30:48] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> ESQUELTP FULL HIERRO
+[16:30:48] [Server thread/INFO]: OmniXautral issued server command: /tp albertororo
+[16:30:48] [Server thread/INFO]: [OmniXautral: Teleported OmniXautral to albertororo]
+[16:30:50] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> todos lo pueden hacer?
+[16:30:59] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> q pedo
+[16:30:59] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> si
+[16:31:06] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> mano que pt con los esqueletos
+[16:31:32] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> oe ya que estamos
+[16:31:34] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> tan rotisimoa
+[16:31:53] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> unanse ala comunidad de ElDavik llego hace poco a 5K
+[16:31:58] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> sehh
+[16:32:01] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> si sigues promoci9onando te voy a banear
+[16:32:04] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> pero bueno
+[16:32:05] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> :v
+[16:32:08] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> soy mod
+[16:32:08] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> a
+[16:32:14] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> que tiene de malo
+[16:32:18] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> pues todo :v
+[16:32:22] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> mientras no promociones su srv todo chido
+[16:32:33] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> solo promociono el canal xd
+[16:32:37] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> a bueno
+[16:32:38] [Server thread/INFO]: OmniXautral issued server command: /tp jmessi74
+[16:32:38] [Server thread/INFO]: [OmniXautral: Teleported OmniXautral to jmessi74]
+[16:32:48] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.havoxel master @a ~ ~ ~ 0.5 1 1
+[16:32:48] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.havoxel to 4 players]
+[16:32:51] [Server thread/INFO]: OmniXautral issued server command: /stopsound @a
+[16:32:51] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:32:52] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.havoxel master @a ~ ~ ~ 0.5 1 1
+[16:32:52] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.havoxel to 4 players]
+[16:33:08] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> ala temazo
+[16:33:08] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> que me ves w
+[16:33:09] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> mis oidos
+[16:33:16] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> cabron el bajé el volumen a 0.5
+[16:33:20] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> no estés chingando con que tus oidos
+[16:33:32] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> jder
+[16:33:38] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> almenos pon buena musica
+[16:33:41] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> xd
+[16:33:42] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> cffff
+[16:33:46] [Server thread/INFO]: OmniXautral issued server command: /stopsound jmessi74
+[16:33:46] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:33:57] [Server thread/INFO]: [OmniXautral: Set own game mode to Spectator Mode]
+[16:33:59] [Server thread/INFO]: OmniXautral issued server command: /tp albertororo
+[16:33:59] [Server thread/INFO]: [OmniXautral: Teleported OmniXautral to albertororo]
+[16:34:11] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> copmo se siente ver a jmessi y luego a albertororo
+[16:34:16] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> es como ver al rico y al pobre
+[16:34:19] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> xd
+[16:34:20] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> XD
+[16:34:32] [Async Chat Thread - #26/INFO]: [Not Secure] <jmessi74> yo le dije que bajara
+[16:34:39] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.betrayal master @a[name=!jmessi74] ~ ~ ~ 0.5 1 1
+[16:34:39] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.betrayal to 3 players]
+[16:34:39] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> andod desnudo yo
+[16:34:41] [Server thread/INFO]: OmniXautral issued server command: /stopsound @a
+[16:34:41] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:34:42] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.betrayal master @a[name=!jmessi74] ~ ~ ~ 0.5 1 1
+[16:34:42] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.betrayal to 3 players]
+[16:34:50] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> ese si admito que no lo quieran oir
+[16:34:55] [Async Chat Thread - #26/INFO]: [Not Secure] <albertororo> ala
+[16:34:57] [Async Chat Thread - #26/INFO]: [Not Secure] <OmniXautral> ya fue una que hice hace tiempo
+[16:35:07] [Server thread/INFO]: jmessi74 has made the advancement [Not Today, Thank You]
+[16:35:10] [Server thread/INFO]: jmessi74 has made the advancement [Monster Hunter]
+[16:35:18] [Server thread/INFO]: albertororo has made the advancement [Acquire Hardware]
+[16:35:25] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> pq no pones el mod de chat de voz
+[16:35:30] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> por que no c
+[16:35:33] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> pero luego lo pongo
+[16:35:35] [Server thread/INFO]: OmniXautral issued server command: /tps
+[16:35:38] [Server thread/INFO]: albertororo has made the advancement [Isn't It Iron Pick]
+[16:35:40] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> estaria chidso
+[16:35:46] [Server thread/INFO]: [OmniXautral: Set own game mode to Creative Mode]
+[16:35:47] [Server thread/INFO]: [OmniXautral: Set own game mode to Spectator Mode]
+[16:35:49] [Server thread/INFO]: [OmniXautral: Set own game mode to Creative Mode]
+[16:35:56] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> :v
+[16:36:10] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> oye dmn
+[16:36:14] [Server thread/INFO]: [Not Secure] [Server] se me traboooo
+[16:36:15] [Server thread/INFO]: [Not Secure] [Server] nooooo
+[16:36:22] [Server thread/INFO]: OmniXautral lost connection: Timed out
+[16:36:22] [Server thread/INFO]: OmniXautral left the game
+[16:36:43] [User Authenticator #18/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[16:36:54] [Server thread/INFO]: [xLogin] Auto-login por IP privada para OmniXautral (IP 127.87.249.215 hash private vs stored gMTGVHCV)
+[16:36:54] [Server thread/INFO]: OmniXautral joined the game
+[16:36:54] [Server thread/INFO]: OmniXautral[/127.87.249.215:60221] logged in with entity id 33856 at ([minecraft:overworld]1038.927430912019, 40.99433171082435, 1234.8329211847529)
+[16:37:06] [Server thread/INFO]: [Not Secure] [Server] oigan gente cual es su gneéro de múúsica favorito?
+[16:37:07] [Server thread/INFO]: There are 4 of a max of 20 players online: PurdysWife, jmessi74, albertororo, OmniXautral
+[16:37:16] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> hm
+[16:37:19] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> ns bld
+[16:37:19] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> ns cualuiera menos rock
+[16:37:27] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> se
+[16:37:36] [Server thread/INFO]: [Not Secure] [Server] bueno
+[16:37:40] [Server thread/INFO]: [Not Secure] [Server] que regularmente escuchan o q pdo
+[16:37:46] [Server thread/INFO]: OmniXautral lost connection: Timed out
+[16:37:46] [Server thread/INFO]: OmniXautral left the game
+[16:37:49] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> no me acuerdo
+[16:37:52] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> bad bunny
+[16:37:55] [Server thread/INFO]: [Not Secure] [Server] no mames
+[16:37:55] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> eso
+[16:37:55] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> xd
+[16:37:57] [Server thread/INFO]: albertororo has made the advancement [Diamonds!]
+[16:38:02] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> dnd estas
+[16:38:06] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> en la mina
+[16:38:14] [User Authenticator #19/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[16:38:22] [Server thread/INFO]: [Not Secure] [Server] es neta que escuchan bad bunny?
+[16:38:23] [Server thread/INFO]: albertororo has made the advancement [Suit Up]
+[16:38:24] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> q tranzas we xd
+[16:38:25] [Server thread/INFO]: [xLogin] Auto-login por IP privada para OmniXautral (IP 127.87.249.215 hash private vs stored gMTGVHCV)
+[16:38:25] [Server thread/INFO]: OmniXautral joined the game
+[16:38:25] [Server thread/INFO]: OmniXautral[/127.87.249.215:60851] logged in with entity id 34478 at ([minecraft:overworld]1040.699999988079, 39.12455954210325, 1238.655072421278)
+[16:38:26] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> aveces
+[16:38:38] [Server thread/INFO]: [Not Secure] [Server] con razón
+[16:38:42] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[16:38:45] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> ns mickol jackson
+[16:38:48] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> xd
+[16:38:50] [User Authenticator #20/INFO]: UUID of player crack_luis is 803cc3d1-aab5-36c8-b838-304ff99945f5
+[16:38:51] [Server thread/INFO]: crack_luis joined the game
+[16:38:51] [Server thread/INFO]: crack_luis[/127.1.21.235:60553] logged in with entity id 34904 at ([minecraft:overworld]155.69999998807907, -32.0, 654.6999999880791)
+[16:38:58] [Server thread/INFO]: OmniXautral was kicked due to keepalive timeout!
+[16:38:58] [Server thread/INFO]: OmniXautral lost connection: Timed out
+[16:38:58] [Server thread/INFO]: OmniXautral left the game
+[16:39:01] [Server thread/INFO]: No player was found
+[16:39:06] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> ayudaaa
+[16:39:06] [Server thread/INFO]: You whisper to crack_luis: como lo ves w
+[16:39:16] [Server thread/INFO]: You whisper to crack_luis: se quejan de mi música pero los vergas oyen bad bunny
+[16:39:20] [User Authenticator #21/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[16:39:26] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> JSAJSJA
+[16:39:28] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> casi
+[16:39:46] [Async Chat Thread - #25/INFO]: [Not Secure] <crack_luis> te apoyo
+[16:39:48] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> mano ni 1 diamante encuentro solo 5 tengo
+[16:39:53] [Server thread/INFO]: OmniXautral (f20b02b1-57da-34a4-912f-c54f973b3c4f) lost connection: Timed out
+[16:39:55] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> yo 2
+[16:40:05] [Server thread/INFO]: [Not Secure] [Server] COMO QUE TIMED OUT
+[16:40:09] [Server thread/INFO]: [Not Secure] [Server] YO FUNDÉ ESTA EMPRESA
+[16:40:13] [User Authenticator #22/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[16:40:16] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> xdd
+[16:40:24] [Server thread/INFO]: [xLogin] Auto-login por IP privada para OmniXautral (IP 127.87.249.215 hash private vs stored gMTGVHCV)
+[16:40:24] [Server thread/INFO]: OmniXautral joined the game
+[16:40:24] [Server thread/INFO]: OmniXautral[/127.87.249.215:34757] logged in with entity id 35919 at ([minecraft:overworld]1040.699999988079, 39.12455954210325, 1238.655072421278)
+[16:40:37] [Async Chat Thread - #25/INFO]: [Not Secure] <OmniXautral> ya
+[16:40:38] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> XD
+[16:40:40] [Server thread/INFO]: [OmniXautral: Set own game mode to Spectator Mode]
+[16:40:43] [Server thread/INFO]: OmniXautral issued server command: /tp crack_luis
+[16:40:43] [Server thread/INFO]: [OmniXautral: Teleported OmniXautral to crack_luis]
+[16:40:51] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> NOO
+[16:40:53] [Async Chat Thread - #27/INFO]: [Not Secure] <albertororo> WE MEDIO CORA
+[16:40:56] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> xddd
+[16:41:06] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.shoes master @a ~ ~ ~ 0.3 1 1
+[16:41:06] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.shoes to 5 players]
+[16:41:10] [Server thread/INFO]: OmniXautral issued server command: /stopsound @a
+[16:41:10] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:41:11] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> que mierd
+[16:41:20] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> es mio
+[16:41:30] [Async Chat Thread - #27/INFO]: [Not Secure] <OmniXautral> crack_luis se esta carreando todo
+[16:41:41] [Async Chat Thread - #27/INFO]: [Not Secure] <OmniXautral> eyo PurdysWife what are you doing
+[16:41:43] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> yo lo vi primero
+[16:41:46] [Async Chat Thread - #27/INFO]: [Not Secure] <albertororo> compalta
+[16:41:48] [Async Chat Thread - #27/INFO]: [Not Secure] <albertororo> tengo solo 2
+[16:41:49] [Async Chat Thread - #27/INFO]: [Not Secure] <OmniXautral> ok
+[16:41:51] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> bruh
+[16:41:57] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.shoes master @a ~ ~ ~ 0.3 1 1
+[16:41:57] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.shoes to 5 players]
+[16:42:02] [Server thread/INFO]: OmniXautral issued server command: /stopsound jmessi74
+[16:42:02] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:42:08] [Async Chat Thread - #27/INFO]: [Not Secure] <PurdysWife> was about to ask where spawn is
+[16:42:14] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> baja
+[16:42:20] [Async Chat Thread - #27/INFO]: [Not Secure] <OmniXautral> PurdysWife idk
+[16:42:26] [Async Chat Thread - #27/INFO]: [Not Secure] <OmniXautral> wheres in 1166 something
+[16:42:28] [Async Chat Thread - #27/INFO]: [Not Secure] <albertororo> AY XD
+[16:42:36] [Async Chat Thread - #27/INFO]: [Not Secure] <albertororo> MEDIO D ENUEVO
+[16:42:39] [Async Chat Thread - #27/INFO]: [Not Secure] <albertororo> ajshja}
+[16:42:45] [Async Chat Thread - #27/INFO]: [Not Secure] <albertororo> sandias pedorras
+[16:42:54] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> dios
+[16:42:59] [Async Chat Thread - #27/INFO]: [Not Secure] <PurdysWife> alright
+[16:43:35] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> no veo diamantes
+[16:43:47] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> dnd fuiste
+[16:43:53] [Server thread/INFO]: albertororo has made the advancement [Not Today, Thank You]
+[16:44:05] [Async Chat Thread - #27/INFO]: [Not Secure] <albertororo> toy bien pdnj
+[16:44:06] [Async Chat Thread - #27/INFO]: [Not Secure] <jmessi74> dios mio
+[16:44:08] [Async Chat Thread - #27/INFO]: [Not Secure] <albertororo> ns q me pasa
+[16:44:12] [Server thread/INFO]: OmniXautral issued server command: /tps
+[16:44:20] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> ven
+[16:44:41] [Async Chat Thread - #25/INFO]: [Not Secure] <jmessi74> veni bld
+[16:44:54] [Netty Epoll IO #2/INFO]: Disconnecting OmniXautral for sending keepalive response (7384408) out-of-order!
+[16:44:54] [Server thread/INFO]: OmniXautral lost connection: Timed out
+[16:44:54] [Server thread/INFO]: OmniXautral left the game
+[16:45:00] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> alla ahy xd
+[16:45:05] [Async Chat Thread - #25/INFO]: [Not Secure] <albertororo> a
+[16:46:19] [Server thread/INFO]: [Not Secure] [Server] se me trabó UN VERGO
+[16:46:21] [Server thread/INFO]: [Not Secure] [Server] wey que pedo
+[16:46:26] [Server thread/INFO]: [Not Secure] [Server] pc en decadencia
+[16:46:34] [User Authenticator #23/INFO]: UUID of player OmniXautral is f20b02b1-57da-34a4-912f-c54f973b3c4f
+[16:46:40] [Async Chat Thread - #28/INFO]: [Not Secure] <jmessi74> pc de la nasa
+[16:46:50] [Server thread/INFO]: [xLogin] Auto-login por IP privada para OmniXautral (IP 127.87.249.215 hash private vs stored gMTGVHCV)
+[16:46:50] [Server thread/INFO]: OmniXautral joined the game
+[16:46:50] [Server thread/INFO]: OmniXautral[/127.87.249.215:45513] logged in with entity id 39026 at ([minecraft:overworld]1062.5441162454722, -45.878703159460805, 1199.954956875455)
+[16:47:04] [Async Chat Thread - #28/INFO]: [Not Secure] <OmniXautral> ttcfff
+[16:47:29] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.betrayal master @a ~ ~ ~ 0.3 0.8 1
+[16:47:29] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.betrayal to 2 players]
+[16:47:32] [Server thread/INFO]: OmniXautral issued server command: /stopsound @a
+[16:47:32] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:47:36] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.betrayal master @a ~ ~ ~ 0.3 0.8 1
+[16:47:36] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.betrayal to 2 players]
+[16:48:23] [Async Chat Thread - #30/INFO]: [Not Secure] <OmniXautral> y si activo el hellish?
+[16:48:28] [Server thread/INFO]: [Death] [Death] albertororo murió en 1051, -23, 1251 (world)
+[16:48:28] [Server thread/INFO]: [Death] Muerte de albertororo: drops=26 keepInventory=false itemsACofrar=26
+[16:48:28] [Server thread/INFO]: [Death] Colocando cofre de muerte en world Location{world=CraftWorld{key=minecraft:overworld},x=1050.0,y=-23.0,z=1250.0,pitch=0.0,yaw=0.0} (26 stacks)
+[16:48:28] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1050.0,y=-23.0,z=1250.0,pitch=0.0,yaw=0.0}: 26 items reales en el mundo
+[16:48:28] [Server thread/INFO]: albertororo was shot by Skeleton
+[16:48:28] [Server thread/WARN]: [Death] RespawnEvent corrigiendo albertororo de Location{world=CraftWorld{key=minecraft:overworld},x=1170.5,y=65.0,z=1296.5,pitch=0.0,yaw=0.0} a Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0}
+[16:48:30] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1050.0,y=-23.0,z=1250.0,pitch=0.0,yaw=0.0}: 26 items reales en el mundo
+[16:48:31] [Async Chat Thread - #30/INFO]: [Not Secure] <albertororo> WTFF WEEE
+[16:48:33] [Server thread/INFO]: PurdysWife has made the advancement [Sweet Dreams]
+[16:48:33] [Server thread/INFO]: albertororo lost connection: Death
+
+albertororo was shot by Skeleton
+
+§6[Vidas] §7Vidas restantes: §c7
+
+§7Tu cofre está en §b1050, -23, 1250 (world)
+[16:48:33] [Server thread/INFO]: albertororo left the game
+[16:48:34] [Async Chat Thread - #30/INFO]: [Not Secure] <jmessi74> q es eso
+[16:48:40] [Async Chat Thread - #30/INFO]: [Not Secure] <crack_luis> ando el bastion w
+[16:48:40] [Async Chat Thread - #30/INFO]: [Not Secure] <OmniXautral> la cara del pobre bastard
+[16:48:42] [Async Chat Thread - #30/INFO]: [Not Secure] <crack_luis> ando el bastion w
+[16:48:42] [Async Chat Thread - #30/INFO]: [Not Secure] <crack_luis> ando el bastion w
+[16:48:44] [Async Chat Thread - #30/INFO]: [Not Secure] <OmniXautral> como un modo hardp ero dificil
+[16:48:46] [Async Chat Thread - #30/INFO]: [Not Secure] <crack_luis> no lo actives
+[16:48:47] [User Authenticator #24/INFO]: UUID of player albertororo is 6fa58006-bd97-3c17-9dd2-71e9fcaa4ee0
+[16:48:53] [Async Chat Thread - #30/INFO]: [Not Secure] <jmessi74> albe dnd estas
+[16:48:55] [Server thread/INFO]: [Death] Respawn de albertororo: solicitado=null, resuelto=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} safe=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} mundoActual=world
+[16:48:55] [Server thread/INFO]: albertororo joined the game
+[16:48:55] [Server thread/INFO]: albertororo[/127.180.210.104:51799] logged in with entity id 39863 at ([minecraft:overworld]1049.5060979815241, -22.768476202412987, 1250.780081512597)
+[16:48:56] [Async Chat Thread - #30/INFO]: [Not Secure] <OmniXautral> si se muere albertotoro una vez más activo el modo hellish
+[16:49:00] [Async Chat Thread - #30/INFO]: [Not Secure] <jmessi74> albe dnd estas
+[16:49:04] [Server thread/INFO]: OmniXautral issued server command: /tp albertororo 1051 -23 1251
+[16:49:04] [Server thread/INFO]: albertororo has made the advancement [We Need to Go Deeper]
+[16:49:04] [Server thread/INFO]: [OmniXautral: Teleported albertororo to 1051.500000, -23.000000, 1251.500000]
+[16:49:07] [Server thread/INFO]: OmniXautral issued server command: /tp jmessi74
+[16:49:07] [Server thread/INFO]: [OmniXautral: Teleported OmniXautral to jmessi74]
+[16:49:09] [Server thread/INFO]: [Death] [Death] albertororo murió en 1052, -199, 1252 (world_nether)
+[16:49:09] [Server thread/INFO]: [Death] Muerte de albertororo: drops=0 keepInventory=false itemsACofrar=0
+[16:49:09] [Server thread/ERROR]: Could not pass event PlayerDeathEvent to Death v1.0.0
+java.lang.ClassCastException: class org.bukkit.craftbukkit.block.CraftBlockState cannot be cast to class org.bukkit.block.Skull (org.bukkit.craftbukkit.block.CraftBlockState and org.bukkit.block.Skull are in unnamed module of loader java.net.URLClassLoader @433c675d)
+	at Death-1.0.0.jar//dev.xautral.death.head.DeathHeadSpawner.spawn(DeathHeadSpawner.java:26) ~[?:?]
+	at Death-1.0.0.jar//dev.xautral.death.DeathListener.onDeath(DeathListener.java:126) ~[?:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:71) ~[paper-api-26.2.build.112-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627) ~[paper-api-26.2.build.112-stable.jar:?]
+	at org.bukkit.craftbukkit.event.CraftEventFactory.callPlayerDeathEvent(CraftEventFactory.java:1012) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.level.ServerPlayer.die(ServerPlayer.java:1162) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.LivingEntity.hurtServer(LivingEntity.java:1530) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.player.Player.hurtServer(Player.java:749) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.level.ServerPlayer.hurtServer(ServerPlayer.java:1304) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.Entity.hurt(Entity.java:2472) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.LivingEntity.onBelowWorld(LivingEntity.java:2791) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.Entity.checkBelowWorld(Entity.java:959) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.Entity.baseTick(Entity.java:926) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.LivingEntity.baseTick(LivingEntity.java:451) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.Entity.tick(Entity.java:866) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:3398) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.world.entity.player.Player.tick(Player.java:280) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:803) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tickPlayer(ServerGamePacketListenerImpl.java:387) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:366) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.network.Connection.tick(Connection.java:613) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:299) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.tickConnection(MinecraftServer.java:1874) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:529) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1837) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1620) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:404) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1678) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1348) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-112-c9e894d]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:49:09] [Server thread/INFO]: albertororo fell out of the world
+[16:49:09] [Async Chat Thread - #31/INFO]: [Not Secure] <jmessi74> albe dnd estas
+[16:49:09] [Server thread/INFO]: OmniXautral issued server command: /tp albertororo 1051 -23 1251
+[16:49:09] [Server thread/INFO]: [OmniXautral: Teleported albertororo to 1051.500000, -23.000000, 1251.500000]
+[16:49:11] [Server thread/WARN]: [Death] RespawnEvent corrigiendo albertororo de Location{world=CraftWorld{key=minecraft:overworld},x=1167.5,y=66.0,z=1294.5,pitch=0.0,yaw=0.0} a Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0}
+[16:49:14] [Server thread/INFO]: OmniXautral issued server command: /tp albertororo 1051 -23 1251
+[16:49:14] [Server thread/INFO]: [OmniXautral: Teleported albertororo to 1051.500000, -23.000000, 1251.500000]
+[16:49:18] [Server thread/INFO]: OmniXautral issued server command: /gamemode survival albertororo
+[16:49:18] [Server thread/INFO]: [OmniXautral: Set albertororo's game mode to Survival Mode]
+[16:49:18] [Async Chat Thread - #31/INFO]: [Not Secure] <albertororo> WTF
+[16:49:19] [Server thread/INFO]: OmniXautral issued server command: /tp albertororo 1051 -23 1251
+[16:49:19] [Server thread/INFO]: [OmniXautral: Teleported albertororo to 1051.500000, -23.000000, 1251.500000]
+[16:49:21] [Async Chat Thread - #31/INFO]: [Not Secure] <jmessi74> what
+[16:49:22] [Async Chat Thread - #31/INFO]: [Not Secure] <OmniXautral> me equivoque de cords
+[16:49:23] [Async Chat Thread - #31/INFO]: [Not Secure] <OmniXautral> predon
+[16:49:33] [Async Chat Thread - #31/INFO]: [Not Secure] <albertororo> tenia el escudo e igual mori q pdo
+[16:49:43] [Server thread/INFO]: [Death] [Death] jmessi74 murió en 1032, -37, 1235 (world)
+[16:49:43] [Server thread/INFO]: [Death] Muerte de jmessi74: drops=38 keepInventory=false itemsACofrar=38
+[16:49:43] [Server thread/INFO]: [Death] Colocando cofre de muerte en world Location{world=CraftWorld{key=minecraft:overworld},x=1031.0,y=-37.0,z=1234.0,pitch=0.0,yaw=0.0} (38 stacks)
+[16:49:43] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1031.0,y=-37.0,z=1234.0,pitch=0.0,yaw=0.0}: 27 items reales en el mundo
+[16:49:43] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1032.0,y=-37.0,z=1234.0,pitch=0.0,yaw=0.0}: 11 items reales en el mundo
+[16:49:43] [Server thread/INFO]: jmessi74 was shot by Skeleton
+[16:49:43] [Server thread/WARN]: [Death] RespawnEvent corrigiendo jmessi74 de Location{world=CraftWorld{key=minecraft:overworld},x=1160.5,y=77.0,z=1297.5,pitch=0.0,yaw=0.0} a Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0}
+[16:49:45] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1031.0,y=-37.0,z=1234.0,pitch=0.0,yaw=0.0}: 27 items reales en el mundo
+[16:49:45] [Server thread/INFO]: [Death] Verificacion cofre en Location{world=CraftWorld{key=minecraft:overworld},x=1032.0,y=-37.0,z=1234.0,pitch=0.0,yaw=0.0}: 11 items reales en el mundo
+[16:49:45] [Async Chat Thread - #31/INFO]: [Not Secure] <OmniXautral> si albertororo se muere una vez más activo el modo heeliosh
+[16:49:47] [Async Chat Thread - #31/INFO]: [Not Secure] <jmessi74> no mmes
+[16:49:48] [Server thread/INFO]: jmessi74 lost connection: Death
+
+jmessi74 was shot by Skeleton
+
+§6[Vidas] §7Vidas restantes: §c9
+
+§7Tu cofre está en §b1031, -37, 1234 (world)
+[16:49:48] [Server thread/INFO]: jmessi74 left the game
+[16:49:59] [User Authenticator #25/INFO]: UUID of player jmessi74 is b6cd7db2-8238-3e32-b6b0-3a7719ca64a7
+[16:50:00] [Server thread/INFO]: OmniXautral issued server command: /tp jmessi 1032 -37 1235
+[16:50:07] [Server thread/INFO]: [Death] Respawn de jmessi74: solicitado=null, resuelto=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} safe=Location{world=CraftWorld{key=minecraft:overworld},x=1166.0,y=64.0,z=1297.0,pitch=0.0,yaw=0.0} mundoActual=world
+[16:50:07] [Server thread/INFO]: jmessi74 joined the game
+[16:50:07] [Server thread/INFO]: jmessi74[/127.187.19.74:47433] logged in with entity id 40387 at ([minecraft:overworld]1031.60028352613, -36.975575911786315, 1234.0680654610132)
+[16:50:08] [Server thread/INFO]: OmniXautral issued server command: /tp jmessi 1032 -37 1235
+[16:50:15] [Server thread/INFO]: OmniXautral issued server command: /tp jmessi74 1032 -37 1235
+[16:50:15] [Server thread/INFO]: [OmniXautral: Teleported jmessi74 to 1032.500000, -37.000000, 1235.500000]
+[16:50:19] [Async Chat Thread - #31/INFO]: [Not Secure] <albertororo> xd
+[16:50:24] [Async Chat Thread - #31/INFO]: [Not Secure] <OmniXautral> si alguien se muere una vez más activo el modo hellish
+[16:51:00] [Async Chat Thread - #31/INFO]: [Not Secure] <jmessi74> toma
+[16:51:10] [Async Chat Thread - #31/INFO]: [Not Secure] <albertororo> grax
+[16:51:13] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.betrayal master @a ~ ~ ~ 0.5 1.4 1
+[16:51:13] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.betrayal to 2 players]
+[16:51:23] [Async Chat Thread - #31/INFO]: [Not Secure] <OmniXautral> ese si es para expeimentar
+[16:51:35] [Async Chat Thread - #31/INFO]: [Not Secure] <jmessi74> esperame
+[16:51:44] [Server thread/INFO]: crack_luis has made the advancement [Hidden in the Depths]
+[16:52:11] [Async Chat Thread - #31/INFO]: [Not Secure] <jmessi74> acaa
+[16:52:24] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.havoxel master @a ~ ~ ~ 0.5 1.4 1
+[16:52:24] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.havoxel to 2 players]
+[16:52:24] [Async Chat Thread - #31/INFO]: [Not Secure] <albertororo> q mrd
+[16:52:26] [Server thread/INFO]: OmniXautral issued server command: /stopsound @a
+[16:52:26] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:52:27] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.havoxel master @a ~ ~ ~ 0.5 1.4 1
+[16:52:27] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.havoxel to 2 players]
+[16:52:30] [Async Chat Thread - #31/INFO]: [Not Secure] <albertororo> aiuda
+[16:52:31] [Server thread/INFO]: OmniXautral issued server command: /stopsound @a
+[16:52:31] [Server thread/INFO]: [OmniXautral: Stopped all sounds]
+[16:52:34] [Async Chat Thread - #31/INFO]: [Not Secure] <jmessi74> tengo uno mas
+[16:52:34] [Server thread/INFO]: OmniXautral issued server command: /tp albertororo
+[16:52:34] [Server thread/INFO]: [OmniXautral: Teleported OmniXautral to albertororo]
+[16:52:38] [Server thread/INFO]: OmniXautral issued server command: /playsound minecraft:custom.havoxel master @a ~ ~ ~ 0.5 1.3 1
+[16:52:38] [Server thread/INFO]: [OmniXautral: Played sound minecraft:custom.havoxel to 4 players]
+[16:52:39] [Async Chat Thread - #31/INFO]: [Not Secure] <jmessi74> ke paso
+[16:52:42] [Async Chat Thread - #31/INFO]: [Not Secure] <OmniXautral> si uno más se muere activo el modo hellish
+[16:52:43] [Async Chat Thread - #31/INFO]: [Not Secure] <albertororo> mira we
+[16:52:48] [Async Chat Thread - #31/INFO]: [Not Secure] <OmniXautral> por 8 minutos
+[16:53:01] [Async Chat Thread - #31/INFO]: [Not Secure] <albertororo> nda
+[16:53:19] [Async Chat Thread - #31/INFO]: [Not Secure] <jmessi74> cuanto hierro

@@ -1,0 +1,11 @@
+dev/willsrv/translate/Lang.class
+dev/willsrv/translate/SuffixManager.class
+dev/willsrv/translate/TranslateMessages.class
+dev/willsrv/translate/ChatListener.class
+dev/willsrv/translate/TranslationService.class
+dev/willsrv/translate/TranslateAPI.class
+dev/willsrv/translate/CountryGui.class
+dev/willsrv/translate/JoinListener.class
+dev/willsrv/translate/TranslatePlugin.class
+dev/willsrv/translate/TranslateManager.class
+dev/willsrv/translate/TranslateCommand.class

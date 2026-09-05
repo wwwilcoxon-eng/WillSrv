@@ -1,0 +1,10 @@
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/AuthCommands.java
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/AuthListener.java
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/AuthManager.java
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/ChatModerator.java
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/CryptoUtil.java
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/Dialogs.java
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/Msg.java
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/PlayerStore.java
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/Tr.java
+/workspaces/WillSrv/xlogin-plugin/src/main/java/dev/willsrv/xlogin/XLoginPlugin.java

@@ -1,0 +1,14 @@
+name: Phaxi
+version: 1.0.0
+main: dev.willsrv.phaxi.PhaxiPlugin
+api-version: '26.2'
+author: Xautral
+commands:
+  phaxi:
+    description: Phantom taxi a tu casa
+    usage: /phaxi <set|go|list|del> [nombre]
+    aliases: [ph, taxi]
+permissions:
+  phaxi.use:
+    default: true
+softdepend: [Translate]

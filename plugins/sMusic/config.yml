@@ -1,0 +1,33 @@
+# --------------------------
+# sMusic Configuration
+# --------------------------
+
+# -1 = auto detect server version
+pack_format: -1
+
+resource_pack_name: Music Resource Pack
+
+resource_pack_description: §4Musica Compuesta por "§lXautral§r§4"
+
+# Sound category for the music
+# Possible options:
+# MASTER   -> Main channel, affects all sounds
+# MUSIC    -> Background music
+# RECORDS  -> Music discs (disc player)
+# WEATHER  -> Weather sounds, storms, rain, etc.
+# BLOCKS   -> Block sounds, like opening doors, breaking blocks
+# HOSTILE  -> Hostile mob sounds
+# NEUTRAL  -> Neutral mob sounds
+# PLAYERS  -> Player sounds (hits, footsteps, etc.)
+# AMBIENT  -> Ambient sounds (birds, wind, etc.)
+# VOICE    -> Voice chat or similar voice sounds
+sound_category: MASTER
+
+messages:
+  now_playing: |2+
+
+
+        &b♫ &7Estas Escuchando: &d&l%song%&b ♪
+
+  show_now_playing: true
+now_playing: '&b♫ &7Estas Escuchando: &d&l%song%&b ♪'

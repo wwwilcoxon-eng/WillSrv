@@ -1,0 +1,9 @@
+name: Death
+version: 1.0.0
+main: dev.xautral.death.DeathPlugin
+api-version: '26.2'
+author: Xautral
+commands:
+  deathitems:
+    permission: death.items
+softdepend: [Translate]

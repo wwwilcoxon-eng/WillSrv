@@ -1,0 +1,9 @@
+dev/willsrv/physics/CollisionEngine$BodyHit.class
+dev/willsrv/physics/PhysicsPlugin.class
+dev/willsrv/physics/CollisionEngine.class
+dev/willsrv/physics/CollisionEngine$Hit.class
+dev/willsrv/physics/CollisionEngine$Sweep.class
+dev/willsrv/physics/PhysicsManager$PListener.class
+dev/willsrv/physics/PhysicsManager$DoorBody.class
+dev/willsrv/physics/PhysicsManager$1.class
+dev/willsrv/physics/PhysicsManager.class

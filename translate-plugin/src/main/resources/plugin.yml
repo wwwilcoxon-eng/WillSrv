@@ -1,0 +1,18 @@
+name: Translate
+version: 1.0.0
+main: dev.willsrv.translate.TranslatePlugin
+api-version: '26.2'
+author: Xautral
+description: Traduce el chat a tu idioma segun tu pais, seleccion al entrar, sufijo temporal y /translate on|off
+commands:
+  translate:
+    description: Activa/desactiva la traduccion automatica
+    usage: /translate <on|off|select|lang> [idioma]
+    aliases: [traduccion, traducir, lang, idioma, pais, country]
+permissions:
+  translate.use:
+    default: true
+    description: Permite usar /translate
+  translate.admin:
+    default: op
+    description: Admin de Translate

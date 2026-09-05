@@ -1,0 +1,7 @@
+name: Physics
+version: 1.0.0
+main: dev.willsrv.physics.PhysicsPlugin
+api-version: '26.2'
+author: Xautral
+description: Al correr y chocar contra una puerta, su BlockDisplay sale rebotando y rotando con gravedad y friccion propias, estilo Garry's Mod. Shift + click derecho para recogerla.
+softdepend: [Translate]

@@ -1,0 +1,33 @@
+{
+  "players": {
+    "6fa58006-bd97-3c17-9dd2-71e9fcaa4ee0": {
+      "lives": 7,
+      "totalDeaths": 3
+    },
+    "30a6bf87-0e42-3387-ae3e-6c60f0e71d95": {
+      "lives": 8,
+      "totalDeaths": 2
+    },
+    "b6cd7db2-8238-3e32-b6b0-3a7719ca64a7": {
+      "lives": 9,
+      "totalDeaths": 1
+    },
+    "eccfda82-36bb-34f6-990b-f38cbf3c2466": {
+      "lives": 9,
+      "totalDeaths": 1
+    },
+    "f20b02b1-57da-34a4-912f-c54f973b3c4f": {
+      "lives": 6,
+      "totalDeaths": 4
+    },
+    "6abd51b9-8057-34f6-b9dc-974379542ef7": {
+      "lives": 8,
+      "totalDeaths": 2
+    },
+    "5ef1a4fb-3293-3667-bcc1-e4e8335b9a9e": {
+      "lives": 9,
+      "totalDeaths": 1
+    }
+  },
+  "pendingRevive": {}
+}

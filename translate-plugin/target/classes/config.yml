@@ -1,0 +1,7 @@
+# Translate - Configuracion
+# Duracion del sufijo [PAIS] visible al unirse (segundos)
+suffix-duration-seconds: 45
+# Si la traduccion esta activa por defecto para nuevos jugadores
+translate-enabled-by-default: true
+# Proveedor: mymemory (gratis, requiere internet) o mock (sin internet)
+provider: "mymemory"

@@ -1,0 +1,11 @@
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/DeathListener.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/DeathPlugin.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/Tr.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/chest/DeathChest.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/head/DeathHeadSpawner.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/item/AngryWand.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/item/AngryWandManager.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/item/DeathItemsCommand.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/lives/LivesManager.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/lives/TotemOfLife.java
+/workspaces/WillSrv/death-plugin/src/main/java/dev/xautral/death/store/PendingStore.java

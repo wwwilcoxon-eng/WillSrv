@@ -1,0 +1,13 @@
+name: Restore
+version: 1.0.0
+main: dev.willsrv.restore.RestorePlugin
+api-version: '26.2'
+author: Xautral
+commands:
+  restore:
+    description: Gestion de chunks inactivos
+    usage: /restore [status|clean|reload]
+permissions:
+  restore.admin:
+    default: op
+softdepend: [Translate]
